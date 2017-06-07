@@ -5,8 +5,10 @@
 
 
 body {
-	font-family: 'muli';
-
+	background: #4B79A1;
+    background: -webkit-linear-gradient(to left, #345673 , #0e1c27);
+    background: linear-gradient(to left, #345673 , #0e1c27);
+    color: white;
 }
 
 section{
@@ -15,6 +17,11 @@ section{
 
 .container h1{
 	text-align: center;
+}
+
+.invertsvg {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 /****************NAVBAR****************/
 
@@ -35,18 +42,19 @@ section{
 /****************TITLE****************/
 
 .one{
-	height:80vh;
+	height:65vh;
 	width:100%;
 	background-image: url('../images/blueprint-2.jpg');
 	background-repeat: repeat;
 	text-align: center;
 	font-family: 'bluprint';
 	color: white;	
+	filter:brightness(90%);
 }
 
 #title h1 {	
-	font-size: 400px;
-	margin-top: 90px;
+	font-size: 350px;
+	margin-top: 70px;
 }
 
 .myButton {
@@ -91,17 +99,66 @@ section{
 	top:1px;
 }
 
+.myButton2 {
+	background-color:white;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: 'Muli';
+	font-weight: 800;
+	font-size:17px;
+	padding:7px 25px;
+	transition: .5s;
+	margin-top: 10px; 
+	text-decoration: none;
+}
+
+
+.myButton2:hover {
+	margin-top: 5px; 
+	transition: margin .5s;
+	text-decoration: none;
+}
+.myButton2:active {
+	background-color:#bab1ba;
+	text-decoration: none;
+}
+
+.myButton2:visited{
+	text-decoration: none;
+}
+
 /****************INFO****************/
 
+.two{
+	text-align: center;
+}
 
 /****************INFO (DETAILED)****************/
 
+#detailed-information{
+	width: 100%;
+	background-color: #3187C8;
+}
 /****************PORTFOLIO****************/
 
+.four{
+
+}
 /****************TESTIMONIALS****************/
 
+#testimonial{
+	width: 100%;
+	background-color: #000;
+}
 /****************PROJECT LEADS****************/
-
+.six{
+}
 /****************HC STUFF****************/
-
+.seven{
+}
 /****************CONTACT****************/
+.eight{
+}
