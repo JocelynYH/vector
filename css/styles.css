@@ -1,4 +1,9 @@
-#logo{
+body {
+	font-family: 'muli';
+
+}
+
+	#logo{
 	width:50px;
 	margin: 10px 0px 10px 100px;
 }
@@ -16,3 +21,8 @@ section{
 	width: 100%;
 	background-color: #0088F2;
 }
+
+#title {
+	background-image: url('images/blueprint-2.jpg');
+}
+
