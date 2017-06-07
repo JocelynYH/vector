@@ -145,7 +145,7 @@ section{
 /****************PORTFOLIO****************/
 
 .four{
-
+	height: 50vh;
 }
 /****************TESTIMONIALS****************/
 
@@ -157,8 +157,19 @@ section{
 .six{
 }
 /****************HC STUFF****************/
-.seven{
+#hackcville{
+	width: 100%;
+	background-color: #FFF;
+	text-align: center;
+	padding: 20px 0px; 
 }
+
+#hackcville h1{
+	color: black;
+	font-size: 50pt;
+	margin-bottom: 20px;
+}
+
 /****************CONTACT****************/
 .eight{
 }
