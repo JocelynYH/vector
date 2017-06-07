@@ -1,9 +1,16 @@
+
 body {
 	font-family: 'muli';
 
 }
 
-	#logo{
+section{
+	width: 100%;
+}
+
+/****************NAVBAR****************/
+
+#logo{
 	width:50px;
 	margin: 10px 0px 10px 100px;
 }
@@ -12,13 +19,14 @@ body {
 	margin-top: 10px; 
 }
 
-section{
-	width: 100%;
+.navbar{
+	border-radius: 0px;
 }
+/****************TITLE****************/
 
-#title.container{
+.one{
 	height:100vh;
-	width: 100%;
+	width:100%;
 	background-color: #0088F2;
 }
 
