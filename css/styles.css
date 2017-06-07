@@ -16,6 +16,24 @@ section{
 	width: 100%;
 }
 
+
+h2, h3 {
+	margin: 2vh 0px;
+	font-family: 'arvo';
+	font-weight: 700;
+	font-size: 40px;
+	text-shadow: 2px 2px 5px #1B3042;
+}
+
+h3 {
+	font-size: 30px;
+	margin-top: 4vh;
+}
+
+.lightblue {
+	text-shadow: none;
+}
+
 .container h1{
 	text-align: center;
 }
@@ -27,7 +45,7 @@ section{
 /****************NAVBAR****************/
 
 #logo{
-	width:50px;
+	width: 50px;
 	margin: 10px 0px 10px 100px;
 }
 
@@ -38,7 +56,7 @@ section{
 .navbar{
 	border-radius: 0px;
 	margin-bottom: 0;
-	background-color: #152E41 ;
+	background-color: #152E41;
 }
 /****************TITLE****************/
 
@@ -50,7 +68,7 @@ section{
 	text-align: center;
 	font-family: 'bluprint';
 	color: white;	
-	filter:brightness(90%);
+	filter: brightness(90%);
 }
 
 #vector {	
@@ -71,8 +89,8 @@ section{
 	cursor: pointer;
 	font-family: 'Muli';
 	font-weight: 800;
-	font-size:17px;
-	padding:7px 25px;
+	font-size: 17px;
+	padding: 7px 25px;
 	transition: .5s;
 	margin-top: 10px; 
 	text-decoration: none;
@@ -106,6 +124,8 @@ section{
 .col-md-2.icon {
 	padding: 35px;
 	box-sizing: border-box;
+    fill: #78ABD8;
+
 }
 
 /****************INFO (DETAILED)****************/
@@ -113,25 +133,6 @@ section{
 #detailed-information{
 	width: 100%;
 	background-color: #3187C8;
-}
-
-h2, h3 {
-	margin: 2vh 0px;
-	font-family: 'arvo';
-	font-weight: 700;
-	font-size: 40px;
-	text-shadow: 2px 2px 5px #1B3042;
-}
-
-h3 {
-	font-size: 30px;
-}
-
-h3 {
-	margin-top: 4vh;
-}
-.lightblue {
-	text-shadow: none;
 }
 
 /****************PORTFOLIO****************/
