@@ -27,4 +27,8 @@ $(function(){
 
 
 
-$
+$(document).ready(function(){
+	$(".perks").mouseover(function(){
+		$(".slidemenu").slideDown("slow");
+	});
+});

@@ -141,11 +141,17 @@ path {
 
 }
 
+.slidemenu {
+	padding: 50px;
+	background-color: rgba(0,0,0,0.5);
+}
+
 /****************INFO (DETAILED)****************/
 
 #detailed-information{
 	width: 100%;
 	background-color: #3187C8;
+	display: none;
 }
 
 /****************PORTFOLIO****************/
