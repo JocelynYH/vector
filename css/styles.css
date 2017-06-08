@@ -157,9 +157,15 @@ path {
 	position: absolute;
 	top: 0px;
 }
+
 .slidemenu {
 	padding: 50px;
 	background-color: rgba(0,0,0,0.5);
+}
+
+#housemenu {
+	position: absolute;
+	left: 0px;	
 }
 
 /****************DETAILED INFORMATION****************/
