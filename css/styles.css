@@ -180,6 +180,7 @@ path {
 }
 
 .row-item h3{
+	margin-top: 35px;
 }
 
 .row-item p{
@@ -270,4 +271,83 @@ form img{
 	display: inline-block;
 	float: none;
 	margin: 0;
+}
+
+/***************************************************************MEDIA***************************************************************/
+@media screen and (max-width:1000px){
+	/****************NAVBAR****************/
+	.navbar{
+		padding-right:0px;
+		padding-left:20px;
+	}
+	/****************TITLE****************/
+	.software-icons{
+		width: 100%;
+	}
+	.col-md-2.icon{
+		width: 20%;
+		display: inline-block;
+		padding: 0;
+	}
+	/****************INFO****************/
+	/****************INFO (DETAILED)****************/
+	.three h2{
+		margin-bottom: 20px; 
+	}
+	.img-info{
+		height: 100px;
+		width: 100%;
+		background: url("../images/info.jpg") no-repeat center center;
+		-webkit-background-size: 100% auto;
+	    -moz-background-size: 100% auto;
+	    -o-background-size: 100% auto;
+	    background-size:100% auto;
+	}
+	.row-item h3{
+		margin-top: 20px;
+		font-size: 25px;
+	}
+
+	.row-item p{
+		margin-top: 5px;
+		font-size: 15px;
+	}
+	/****************PORTFOLIO****************/
+	/****************TESTIMONIALS****************/
+	.five img{
+		width: 50%;
+		display: inline-block;
+	}
+	.testimonialtext h2, .testimonialtext p, .five{
+		text-align: center;
+	}
+	/****************PROJECT LEADS****************/
+	/****************HC STUFF****************/
+	#hackcville h1{
+		font-size: 30pt;
+	}
+	iframe{
+		width: 100%;
+	}
+	/****************CONTACT****************/
+	form img{
+		width: 50%;
+	}
+}
+@media screen and (max-width:600px){
+	/****************NAVBAR****************/
+	/****************TITLE****************/
+	.one{
+		height: 50vh;
+	}
+	/****************INFO****************/
+	/****************INFO (DETAILED)****************/
+	/****************PORTFOLIO****************/
+	/****************TESTIMONIALS****************/
+	/****************PROJECT LEADS****************/
+	/****************HC STUFF****************/
+	/****************CONTACT****************/
+	.eight h1{
+		font-size: 25px; 
+	}
 }
