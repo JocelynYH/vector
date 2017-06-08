@@ -14,6 +14,7 @@ body {
 
 section{
 	width: 100%;
+	padding: 5vh 0;
 }
 
 
@@ -73,7 +74,7 @@ h3 {
 
 #vector {	
 	font-size: 50vmin;
-	margin-top: 15vh;
+	margin-top: 10vh;
 	margin-bottom: 0px !important;
     -webkit-margin-before: none;
     -webkit-margin-after: none;
@@ -151,7 +152,10 @@ path {
 #detailed-information{
 	width: 100%;
 	background-color: #3187C8;
-	display: none;
+}
+
+.three h2{
+	text-align: center;
 }
 
 /****************PORTFOLIO****************/
