@@ -257,6 +257,9 @@ img#addmarginbottom {
 .headshot {
 	margin-bottom: 0px;
 }
+.instructor2{
+	display: none;
+}
 /****************HC STUFF****************/
 #hackcville{
 	width: 100%;
@@ -361,6 +364,17 @@ form img{
 		text-align: center;
 	}
 	/****************PROJECT LEADS****************/
+	.instructor1{
+		display: none;
+	}
+	.instructor2{
+		display: block;
+		margin-bottom: 40px; 
+	}
+	.six img{
+		width: 50%;
+		margin:0 auto;
+	}
 	/****************HC STUFF****************/
 	#hackcville h1{
 		font-size: 30pt;
