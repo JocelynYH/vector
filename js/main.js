@@ -29,11 +29,11 @@ $(function(){
 
 $(document).ready(function(){
 	$("img#house").mouseover(function(){
-		$(".slidemenu").slideDown("slow");
+		$(".housemenu").slideDown("slow");
 	});
 
-	$(".img#house").mouseleave(function(){
-		$(".slidemenu").slideUp("slow");
+	$("img#house").mouseleave(function(){
+		$(".housemenu").slideUp("slow");
 	})
 });
 

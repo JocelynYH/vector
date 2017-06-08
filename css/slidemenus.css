@@ -154,22 +154,19 @@ path {
 	position: relative;
 }
 
-.pleasework{
-	position: relative;
-}
-
-.housemenu {
+.slideyfunmenus {
 	position: absolute;
-	background-color: rgba(0,0,0,0.9);
-	top: 0;
-	display: none;
-	padding: 40px;
-	z-index: 1;
-	height: 100%;
+	top: 0px;
 }
 
-.perks-container {
-	z-index: 0;
+.slidemenu {
+	padding: 50px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#housemenu {
+	position: absolute;
+	left: 0px;	
 }
 
 /****************DETAILED INFORMATION****************/
@@ -205,12 +202,19 @@ path {
 	margin-top: 40px;
 	font-size: 20px;
 }
+.pleasework{
+	position: relative;
+}
 
+.housemenu {
+	position: absolute;
+}
 /****************PORTFOLIO****************/
 
 .four{
 	height: 50vh;
 }
+
 
 /****************TESTIMONIALS****************/
 
@@ -322,8 +326,7 @@ form img{
 	.software-icons{
 		width: 100%;
 	}
-
-	.membershipperks, .perksicons, .col-md-2.icon{
+	.col-md-2.icon{
 		width: 20%;
 		display: inline-block;
 		padding: 0;
