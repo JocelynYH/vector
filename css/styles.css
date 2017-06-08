@@ -124,7 +124,20 @@ h3 {
 .col-md-2.icon {
 	padding: 35px;
 	box-sizing: border-box;
-    fill: #78ABD8;
+	fill: #78ABD8;
+  	stroke: #78ABD8;
+}
+
+.test {
+	background-color: blue;
+	-webkit-mask-image: url("https://image.flaticon.com/icons/svg/136/136795.svg");
+	mask-image: url("https://image.flaticon.com/icons/svg/136/136795.svg");
+	fill: blue;
+}
+
+path {
+  fill: #78ABD8;
+  stroke: #78ABD8;
 
 }
 
