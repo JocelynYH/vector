@@ -31,4 +31,9 @@ $(document).ready(function(){
 	$(".perks").mouseover(function(){
 		$(".slidemenu").slideDown("slow");
 	});
+
+	$(".perks").mouseleave(function(){
+		$(".slidemenu").slideUp("slow");
+	})
 });
+

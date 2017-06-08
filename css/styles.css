@@ -28,7 +28,7 @@ h2, h3 {
 
 h3 {
 	font-size: 30px;
-	margin-top: 4vh;
+	margin-top: 60px;
 }
 
 .lightblue {
@@ -125,7 +125,7 @@ h3 {
 }
 
 .col-md-2.icon {
-	padding: 35px;
+	padding: 35px 40px 25px 40px;
 	box-sizing: border-box;
 	fill: #78ABD8;
   	stroke: #78ABD8;
@@ -147,6 +147,15 @@ path {
 .slidemenu {
 	padding: 50px;
 	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+
+.perks-caption {
+	position: relative;
+}
+
+.slideyfunmenus {
+	position: absolute;
 }
 
 /****************INFO (DETAILED)****************/
