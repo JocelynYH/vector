@@ -81,7 +81,7 @@ h3 {
     font-weight: 400;
 }
 
-.myButton2 {
+.myButton {
 	background-color:white;
 	-moz-border-radius: 30px;
 	-webkit-border-radius: 30px;
@@ -90,25 +90,25 @@ h3 {
 	cursor: pointer;
 	font-family: 'Muli';
 	font-weight: 800;
-	font-size: 17px;
+	font-size: 20px;
 	padding: 7px 25px;
 	transition: .5s;
 	margin-top: 10px; 
 	text-decoration: none;
 }
 
-.myButton2:hover {
+.myButton:hover {
 	margin-top: 5px; 
 	transition: margin .5s;
 	text-decoration: none;
 	color: #FCB956;
 }
-.myButton2:active {
+.myButton:active {
 	background-color:#bab1ba;
 	text-decoration: none;
 }
 
-.myButton2:visited{
+.myButton:visited{
 	text-decoration: none;
 }
 
@@ -156,6 +156,15 @@ path {
 
 .three h2{
 	text-align: center;
+}
+
+.img-info{
+	height: 400px;
+	background: url("../images/info.jpg") no-repeat center center;
+	-webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size:auto 100%;
 }
 
 /****************PORTFOLIO****************/
@@ -221,4 +230,16 @@ path {
 	margin-bottom: 40px; 
 }
 
+.row{
+	padding-top: 40px;
+}
 
+form{
+	text-align: center;
+}
+
+.subscribe{
+	display: inline-block;
+	float: none;
+	margin: 0;
+}
