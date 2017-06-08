@@ -47,7 +47,7 @@ h3 {
 
 #logo{
 	width: 50px;
-	margin: 10px 0px 10px 100px;
+	margin: 10px 0px 10px 0px;
 }
 
 .navbar-nav li{
@@ -58,6 +58,8 @@ h3 {
 	border-radius: 0px;
 	margin-bottom: 0;
 	background-color: #152E41;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 /****************TITLE****************/
 
@@ -156,10 +158,11 @@ path {
 
 .three h2{
 	text-align: center;
+	margin-bottom: 50px; 
 }
 
 .img-info{
-	height: 400px;
+	height: 575px;
 	background: url("../images/info.jpg") no-repeat center center;
 	-webkit-background-size: auto 100%;
     -moz-background-size: auto 100%;
@@ -167,6 +170,13 @@ path {
     background-size:auto 100%;
 }
 
+.row-item h3{
+}
+
+.row-item p{
+	margin-top: 40px;
+	font-size: 20px;
+}
 /****************PORTFOLIO****************/
 
 .four{
@@ -238,6 +248,9 @@ form{
 	text-align: center;
 }
 
+form img{
+	width: 100%;
+}
 .subscribe{
 	display: inline-block;
 	float: none;
