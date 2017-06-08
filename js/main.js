@@ -28,11 +28,11 @@ $(function(){
 
 
 $(document).ready(function(){
-	$(".perks").mouseover(function(){
+	$("img#house").mouseover(function(){
 		$(".slidemenu").slideDown("slow");
 	});
 
-	$(".perks").mouseleave(function(){
+	$(".img#house").mouseleave(function(){
 		$(".slidemenu").slideUp("slow");
 	})
 });
