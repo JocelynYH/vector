@@ -83,7 +83,6 @@ h3 {
 
 #vector {	
 	font-size: 50vmin;
-	margin-top: 10vh;
 	margin-bottom: 0px !important;
     -webkit-margin-before: none;
     -webkit-margin-after: none;
@@ -107,7 +106,7 @@ h3 {
 }
 
 .myButton:hover {
-	margin-top: 5px; 
+	margin-top: 0px; 
 	transition: margin .5s;
 	text-decoration: none;
 	color: #FCB956;
@@ -326,20 +325,34 @@ form{
 form img{
 	width: 100%;
 }
+.form-group{
+	padding-right: 10px;
+	padding-left: 0px;
+}
 .subscribe{
 	display: inline-block;
 	float: none;
 	margin: 0;
+	font-size: 20px;
 }
 
 /***************************************************************MEDIA***************************************************************/
 @media screen and (max-width:1000px){
+	.container {
+	    padding: 0px;
+	}
 	/****************NAVBAR****************/
 	.navbar{
 		padding-right:0px;
 		padding-left:20px;
 	}
 	/****************TITLE****************/
+	.one {
+	    padding: 0px;
+	}
+
+	/****************INFO****************/
+
 	.software-icons{
 		width: 100%;
 	}
@@ -349,7 +362,6 @@ form img{
 		display: inline-block;
 		padding: 0;
 	}
-	/****************INFO****************/
 	/****************INFO (DETAILED)****************/
 	.three h2{
 		margin-bottom: 20px; 
@@ -444,8 +456,14 @@ form img{
 	.eight h1{
 		font-size: 25px; 
 	}
+
+	.row {
+	    margin-right: 0px;
+	    margin-left: 0px;
+	}
+	
+	.form-group{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
 }
-
-
-
-
