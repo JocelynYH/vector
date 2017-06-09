@@ -35,6 +35,7 @@ h3 {
 
 .lightblue {
 	text-shadow: none;
+	padding-top: 50px;
 }
 
 .container h1{
@@ -42,9 +43,8 @@ h3 {
 }
 
 .container {
-	margin: 20px auto;
-	padding: 50px;
-	padding-top: 20px;
+	margin: 0px auto;
+	padding: 50px 70px;
 }
 
 .invertsvg {
@@ -88,6 +88,7 @@ h3 {
     -webkit-margin-before: none;
     -webkit-margin-after: none;
     font-weight: 400;
+    margin-top: 50px;
 }
 
 .myButton {
@@ -159,7 +160,7 @@ path {
 	z-index: 1;
 	height: 100%;
 	text-align: center;
-	font-size: 3.1vh;
+	font-size: 17px;
 }
 
 .perks-container {
@@ -176,6 +177,7 @@ path {
 .three h2{
 	text-align: center;
 	margin-bottom: 50px; 
+	padding-bottom: 50px;
 }
 
 .img-info{
@@ -335,7 +337,7 @@ form img{
 }
 
 /***************************************************************MEDIA***************************************************************/
-@media screen and (max-width:980px){
+@media screen and (max-width:1000px){
 	.container {
 	    padding: 0px;
 	}
@@ -382,6 +384,10 @@ form img{
 		margin-top: 5px;
 		font-size: 15px;
 	}
+
+	#buffer {
+		height: 50px;
+	}
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
 	.five img{
@@ -397,18 +403,11 @@ form img{
 	}
 	.instructor2{
 		display: block;
-		margin-bottom: 50px; 
+		margin-bottom: 40px; 
 	}
 	.six img{
 		width: 50%;
-		margin:20px auto;
-	}
-	img#addmarginbottom {
-		margin-bottom: 20px;
-	}
-
-	.centerbuttons{
-		text-align: center
+		margin:0 auto;
 	}
 	/****************HC STUFF****************/
 	#hackcville h1{
@@ -416,10 +415,6 @@ form img{
 	}
 	iframe{
 		width: 100%;
-	}
-
-	.seven{
-		padding: 0 20px;
 	}
 	/****************CONTACT****************/
 	form img{
@@ -470,7 +465,7 @@ form img{
 	    margin-right: 0px;
 	    margin-left: 0px;
 	}
-	
+
 	.form-group{
 		padding-right: 15px;
 		padding-left: 15px;
