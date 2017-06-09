@@ -35,6 +35,7 @@ h3 {
 
 .lightblue {
 	text-shadow: none;
+	padding-top: 50px;
 }
 
 .container h1{
@@ -42,7 +43,7 @@ h3 {
 }
 
 .container {
-	margin: 50px auto;
+	margin: 0px auto;
 	padding: 50px 70px;
 }
 
@@ -158,7 +159,7 @@ path {
 	z-index: 1;
 	height: 100%;
 	text-align: center;
-	font-size: 3.1vh;
+	font-size: 3vh;
 }
 
 .perks-container {
@@ -175,6 +176,7 @@ path {
 .three h2{
 	text-align: center;
 	margin-bottom: 50px; 
+	padding-bottom: 50px;
 }
 
 .img-info{
@@ -384,6 +386,10 @@ form img{
 		margin-top: 5px;
 		font-size: 15px;
 	}
+
+	#buffer {
+		height: 50px;
+	}
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
 	.five img{
@@ -461,7 +467,7 @@ form img{
 	    margin-right: 0px;
 	    margin-left: 0px;
 	}
-	
+
 	.form-group{
 		padding-right: 15px;
 		padding-left: 15px;
