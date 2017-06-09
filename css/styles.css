@@ -42,8 +42,9 @@ h3 {
 }
 
 .container {
-	margin: 50px auto;
+	margin: 20px auto;
 	padding: 50px;
+	padding-top: 20px;
 }
 
 .invertsvg {
@@ -319,7 +320,7 @@ form img{
 }
 
 /***************************************************************MEDIA***************************************************************/
-@media screen and (max-width:1000px){
+@media screen and (max-width:980px){
 	.container {
 	    padding: 0px;
 	}
@@ -381,11 +382,18 @@ form img{
 	}
 	.instructor2{
 		display: block;
-		margin-bottom: 40px; 
+		margin-bottom: 50px; 
 	}
 	.six img{
 		width: 50%;
-		margin:0 auto;
+		margin:20px auto;
+	}
+	img#addmarginbottom {
+		margin-bottom: 20px;
+	}
+
+	.centerbuttons{
+		text-align: center
 	}
 	/****************HC STUFF****************/
 	#hackcville h1{
@@ -393,6 +401,10 @@ form img{
 	}
 	iframe{
 		width: 100%;
+	}
+
+	.seven{
+		padding: 0 20px;
 	}
 	/****************CONTACT****************/
 	form img{
