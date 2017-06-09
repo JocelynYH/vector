@@ -36,12 +36,45 @@ $(function(){
 
 
 $(document).ready(function(){
-	$("img#house").mouseover(function(){
-		$(".housemenu").slideDown("slow");
+	$(".pleasework.a").mouseenter(function(){
+		$(".housemenu.a").slideDown(500);
 	});
 
-	$("img#house").mouseleave(function(){
-		$(".housemenu").slideUp("slow");
-	})
+	$(".pleasework.a").mouseout(function(){
+		$(".housemenu.a").slideUp(400);
+	});
 });
+
+$(document).ready(function(){
+	$(".pleasework.b").mouseenter(function(){
+		$(".housemenu.b").slideDown(500);
+	});
+
+	$(".pleasework.b").mouseout(function(){
+		$(".housemenu.b").slideUp(400);
+	});
+});
+
+$(document).ready(function(){
+	$(".pleasework.c").mouseenter(function(){
+		$(".housemenu.c").slideDown(500);
+	});
+
+	$(".pleasework.c").mouseout(function(){
+		$(".housemenu.c").slideUp(400);
+	});
+});
+
+$(document).ready(function(){
+	$(".pleasework.d").mouseenter(function(){
+		$(".housemenu.d").slideDown(500);
+	});
+
+	$(".pleasework.d").mouseout(function(){
+		$(".housemenu.d").slideUp(400);
+	});
+});
+
+
+// end ready
 

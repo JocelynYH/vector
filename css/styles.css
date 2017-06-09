@@ -43,7 +43,7 @@ h3 {
 
 .container {
 	margin: 50px auto;
-	padding: 50px;
+	padding: 50px 70px;
 }
 
 .invertsvg {
@@ -135,13 +135,7 @@ h3 {
 	box-sizing: border-box;
 	fill: #78ABD8;
   	stroke: #78ABD8;
-}
 
-.test {
-	background-color: blue;
-	-webkit-mask-image: url("https://image.flaticon.com/icons/svg/136/136795.svg");
-	mask-image: url("https://image.flaticon.com/icons/svg/136/136795.svg");
-	fill: blue;
 }
 
 path {
@@ -150,9 +144,6 @@ path {
 
 }
 
-.perks-icons {
-	position: relative;
-}
 
 .pleasework{
 	position: relative;
@@ -162,26 +153,25 @@ path {
 	position: absolute;
 	background-color: rgba(0,0,0,0.9);
 	top: 0;
+	left: 0;
 	display: none;
-	padding: 40px;
+	padding: 30px 10px;
 	z-index: 1;
 	height: 100%;
+	text-align: center;
+	font-size: 3.1vh;
 }
 
 .perks-container {
 	z-index: 0;
 }
-
 /****************DETAILED INFORMATION****************/
 
-#detailed-information{
+#detailed-information {
 	width: 100%;
 	background-color: #0e1c27;
 }
 
-.addpadding {
-	padding: 60px 0;
-}
 
 .three h2{
 	text-align: center;
@@ -204,7 +194,35 @@ path {
 .row-item p{
 	margin-top: 40px;
 	font-size: 20px;
+	text-align: right;
 }
+
+.info-list {
+	padding-left: 70px;
+}
+
+table {
+	padding: 15px;
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 100%;
+	margin-left: 30px;
+	font-size: 24px;
+	vertical-align: top;
+	height: auto;
+}
+
+table, th, td {
+/*	border: 1px solid white;
+*/	padding: 30px;
+	padding-left: 30px;
+	vertical-align: top;
+}
+
+.specialtrnopadding {
+	padding-top: 15px;
+}
+
 
 /****************PORTFOLIO****************/
 
@@ -387,6 +405,29 @@ form img{
 		width: 50%;
 	}
 }
+@media screen and (max-width:1200px){
+	/****************NAVBAR****************/
+	/****************TITLE****************/
+	.one{
+		height: 50vh;
+	}
+	/****************INFO****************/
+	/****************INFO (DETAILED)****************/
+	table, td, th {
+		font-size: 20px !important;
+		vertical-align: top;
+	}
+	/****************PORTFOLIO****************/
+	/****************TESTIMONIALS****************/
+	/****************PROJECT LEADS****************/
+	/****************HC STUFF****************/
+	/****************CONTACT****************/
+	.eight h1{
+		font-size: 25px; 
+	}
+}
+
+
 @media screen and (max-width:600px){
 	/****************NAVBAR****************/
 	/****************TITLE****************/
@@ -404,3 +445,7 @@ form img{
 		font-size: 25px; 
 	}
 }
+
+
+
+
