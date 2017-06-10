@@ -229,9 +229,6 @@ table, th, td {
 
 /****************PORTFOLIO****************/
 
-.four{
-	height: 50vh;
-}
 
 /****************TESTIMONIALS****************/
 
@@ -293,6 +290,7 @@ img#addmarginbottom {
 	color: black;
 	font-size: 50pt;
 	margin-bottom: 20px;
+	transition: .5s;
 }
 
 .holder-1{
