@@ -72,7 +72,7 @@ h3 {
 /****************TITLE****************/
 
 .one{
-	height: 75vh;
+	height: 100%;
 	width:100%;
 	background-image: url('../images/blueprint-2.jpg');
 	background-repeat: repeat;
@@ -88,7 +88,7 @@ h3 {
     -webkit-margin-before: none;
     -webkit-margin-after: none;
     font-weight: 400;
-    margin-top: 20vmin;
+    margin-top: 50px;
 }
 
 .myButton {
@@ -104,11 +104,13 @@ h3 {
 	padding: 7px 25px;
 	transition: .5s;
 	margin-top: 10px; 
+	margin-bottom: 30px; 
 	text-decoration: none;
 }
 
 .myButton:hover {
 	margin-top: 0px; 
+	margin-bottom: 40px; 
 	transition: margin .5s;
 	text-decoration: none;
 	color: #FCB956;
@@ -475,10 +477,6 @@ form img{
 @media screen and (max-width:600px){
 	/****************NAVBAR****************/
 	/****************TITLE****************/
-	.one {
-		height: 75vh;
-	}
-
 	/****************INFO****************/
 	/****************INFO (DETAILED)****************/
 	/****************PORTFOLIO****************/
