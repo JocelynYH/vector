@@ -33,11 +33,6 @@ h3 {
 	margin-top: 60px;
 }
 
-.lightblue {
-	text-shadow: none;
-	padding-top: 50px;
-}
-
 .container h1{
 	text-align: center;
 }
@@ -176,11 +171,14 @@ path {
 	background-color: #0e1c27;
 }
 
+.lightblue {
+	text-shadow: none;
+}
+
 
 .three h2{
 	text-align: center;
-	margin-bottom: 50px; 
-	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 .img-info{
@@ -231,6 +229,9 @@ table, th, td {
 
 /****************PORTFOLIO****************/
 
+.four h2{
+	text-align: center;
+}
 
 /****************TESTIMONIALS****************/
 
@@ -285,7 +286,7 @@ img#addmarginbottom {
 	width: 100%;
 	background-color: #FFF;
 	text-align: center;
-	padding: 20px 0px; 
+	padding-bottom: 20px; 
 }
 
 #hackcville h1{
@@ -454,7 +455,7 @@ form img{
 		width: 50%;
 		margin:0 auto;
 	}
-	
+
 	.centerbuttons{
 		text-align:center;
 	}
@@ -486,6 +487,9 @@ form img{
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
 	/****************PROJECT LEADS****************/
+	.leadtext h2{
+		text-align: center;
+	}
 	/****************HC STUFF****************/
 	/****************CONTACT****************/
 
