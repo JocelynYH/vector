@@ -454,6 +454,10 @@ form img{
 		width: 50%;
 		margin:0 auto;
 	}
+	
+	.centerbuttons{
+		text-align:center;
+	}
 	/****************HC STUFF****************/
 	#hackcville h1{
 		font-size: 30pt;
