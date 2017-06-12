@@ -16,9 +16,9 @@ $(function(){
 
 	function doIt() {
 		holder1.fadeIn(2000);
-	    holder1.fadeOut(2000);
 	    holder1.html(options[currentIndex][0]);
 	    currentIndex = (currentIndex + 1) % options.length;
+	    holder1.fadeOut(2000);
 	    setTimeout(doIt, interval);
 	}
 
@@ -47,7 +47,7 @@ $(function(){
         var windowHeight = $(window).height(); // get the height of the window
         var docHeight = $(document).height();
         var navHeight = 69.5;
-        
+
         for (var i=0; i < aArray.length; i++) {
             var theID = aArray[i];
             var divPos = $(theID).offset().top; // get the offset of the div from the top of page
