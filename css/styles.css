@@ -244,6 +244,13 @@ table, th, td {
 	text-align: center;
 }
 
+.item img{
+	display: inline-block !important;
+}
+
+#myCarousel{
+	text-align:center;
+}
 /****************TESTIMONIALS****************/
 
 #testimonial{
