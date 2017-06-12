@@ -21,7 +21,6 @@ $(function(){
 	    holder1.fadeOut(2000);
 	    setTimeout(doIt, interval);
 	}
-
 	doIt();
 
 	//smoothscrolling
@@ -56,6 +55,7 @@ $(function(){
                 $("a[href='" + theID + "']").addClass("activenav");
             } else {
                 $("a[href='" + theID + "']").removeClass("activenav");
+                $("a[href='" + theID + "']").blur()
             }
         }
 

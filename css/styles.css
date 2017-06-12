@@ -57,6 +57,10 @@ h3 {
 	margin-top: 10px; 
 }
 
+.navbar-nav a:focus{
+	color: #9d9d9d !important;
+}
+
 .navbar{
 	border-radius: 0px;
 	margin-bottom: 0;
