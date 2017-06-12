@@ -194,8 +194,8 @@
 			<div class="thisismytable col-md-7">
 				<table>
 					<tr class="specialtrnopadding">
-						<td class="specialtrnopadding"><strong>Syllabus</strong></td>
-						<td class="specialtrnopadding"><a class="col-md-8" href="https://docs.google.com/document/d/1zhy1PtOYodO8OMA_qxhlQh2p3udWgetDsOjzEhk5vkc/edit" target="_blank">See here</a></td>
+						<td class="specialtrnopadding">Syllabus</td>
+						<td class="specialtrnopadding"><a class="col-md-8" href="https://docs.google.com/document/d/1zhy1PtOYodO8OMA_qxhlQh2p3udWgetDsOjzEhk5vkc/edit" target="_blank"><p class="button">Link</p></a></td>
 					</tr>
 
 					<tr>
@@ -230,14 +230,109 @@
 	<section id="portfolio" class="itsasection">
 		<div class="container four">
 			<h2>Portfolio Examples</h2>
-			<img src="./images/portfolio/resume/at_resume.jpg" class="img-responsive col-md-12" alt="Responsive image">
+			<!-- Carousel
+		    ================================================== -->
+		    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		      <!-- Indicators -->
+		      <ol class="carousel-indicators">
+		        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		        <li data-target="#myCarousel" data-slide-to="1"></li>
+		        <li data-target="#myCarousel" data-slide-to="2"></li>
+		        <li data-target="#myCarousel" data-slide-to="3"></li>
+		        <li data-target="#myCarousel" data-slide-to="4"></li>
+		        <li data-target="#myCarousel" data-slide-to="5"></li>
+		        <li data-target="#myCarousel" data-slide-to="6"></li>
+		        <li data-target="#myCarousel" data-slide-to="7"></li>
+		      </ol>
+		      <div class="carousel-inner" role="listbox">
+		        <div class="item active">
+		          <img class="first-slide" src="./images/portfolio/resume/at_resume.jpg" alt="First slide">
+		        </div>
+		        <div class="item">
+		          <img class="second-slide" src="./images/portfolio/rebrand/1.jpg" alt="Second slide">
+		        </div>
+		        <div class="item">
+		          <img class="third-slide" src="./images/portfolio/rebrand/2.jpg" alt="Third slide">
+		        </div>
+		        <div class="item">
+		          <img class="fourth-slide" src="./images/portfolio/rebrand/3.jpg" alt="Fourth slide">
+		        </div>
+		        <div class="item">
+		          <img class="fifth-slide" src="./images/portfolio/resume/dp_resume.jpg" alt="Fifth slide">
+		        </div>
+		        <div class="item">
+		          <img class="sixth-slide" src="./images/portfolio/vec/1.jpg" alt="Sixth slide">
+		        </div>
+		        <div class="item">
+		          <img class="seventh-slide" src="./images/portfolio/vec/2.jpg" alt="Seventh slide">
+		        </div>
+		        <div class="item">
+		          <img class="eigth-slide" src="./images/portfolio/flyer/1.jpg" alt="Eigth slide" height="200">
+		        </div>
+		      </div>
+		      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		        <span class="sr-only">Previous</span>
+		      </a>
+		      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		        <span class="sr-only">Next</span>
+		      </a>
+		    </div><!-- /.carousel -->
+			<!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+			  </ol>
+			  <div class="carousel-inner" role="listbox">
+			    <div class="carousel-item active">
+			      <img class="d-block img-fluid" src="./images/portfolio/resume/at_resume.jpg" alt="First slide">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block img-fluid" src="./images/portfolio/rebrand/1.jpg" alt="Second slide">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block img-fluid" src="./images/portfolio/rebrand/2.jpg" alt="Third slide">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block img-fluid" src="./images/portfolio/rebrand/3.jpg" alt="Fourth slide">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block img-fluid" src="./images/portfolio/resume/dp_resume.jpg" alt="Fifth slide">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block img-fluid" src="./images/portfolio/vec/1.jpg" alt="Sixth slide">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block img-fluid" src="./images/portfolio/vec/2.jpg" alt="Seventh slide">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block img-fluid" src="./images/portfolio/flyer/1.jpg" alt="Eigth slide">
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div> -->
+			<!-- <img src="./images/portfolio/resume/at_resume.jpg" class="img-responsive col-md-12" alt="Responsive image">
 			<img src="./images/portfolio/rebrand/1.jpg" class="img-responsive col-md-12" alt="Responsive image">
 			<img src="./images/portfolio/rebrand/2.jpg" class="img-responsive col-md-12" alt="Responsive image">
 			<img src="./images/portfolio/rebrand/3.jpg" class="img-responsive col-md-12" alt="Responsive image">
 			<img src="./images/portfolio/resume/dp_resume.jpg" class="img-responsive col-md-12" alt="Responsive image">
 			<img src="./images/portfolio/vec/1.jpg" class="img-responsive col-md-12" alt="Responsive image">
 			<img src="./images/portfolio/vec/2.jpg" class="img-responsive col-md-12" alt="Responsive image">
-			<img src="./images/portfolio/flyer/1.jpg" class="img-responsive col-md-12" alt="Responsive image">
+			<img src="./images/portfolio/flyer/1.jpg" class="img-responsive col-md-12" alt="Responsive image"> -->
 		</div>
 	</section>
 
@@ -316,18 +411,15 @@
 			<h1>Join <strong>2,500+ others</strong> and sign up to receive updates on our events, programs, and how you can get involved.</h1>
 			<form>
 				<img class="col-md-offset-2 col-md-3" src="http://hackcville.com/summer/images/hackcville.png">
-				<div class="row">
-					<div class="form-group form-group-lg col-md-4">	
+				<div class="row col-md-7">
+					<div class="form-group form-group-lg col-md-8">	
 					  <input type="text" class="form-control" placeholder="First Name">
-					</div><div class="form-group form-group-lg col-md-4">
+					</div><div class="form-group form-group-lg col-md-8">
 					  <input type="text" class="form-control" placeholder="Last Name">
-					</div><div class="form-group form-group-lg col-md-4">
+					</div><div class="form-group form-group-lg col-md-8">
 					  <input type="email" class="form-control" placeholder="E-mail">
 					</div>
-				</div>
-
-				<div class="row">
-				<button type="submit" class="btn btn-primary col-md-offset-8 col-md-4 subscribe">Subscribe to our Newsletter</button>
+					<button type="submit" class="btn btn-primary col-md-8 subscribe">Subscribe to our Newsletter</button>
 				</div>
 			</form>
 		</div>

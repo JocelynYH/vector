@@ -32,6 +32,7 @@ $(function(){
 	    },500, 'easeInOutExpo');
 	});
 
+	$('.carousel').carousel()
 	// $('.tlt').textillate({
 	// 	in: {
 	// 	    // set the delay factor applied to each consecutive character

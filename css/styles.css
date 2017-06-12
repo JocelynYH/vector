@@ -33,11 +33,6 @@ h3 {
 	margin-top: 60px;
 }
 
-.lightblue {
-	text-shadow: none;
-	padding-top: 50px;
-}
-
 .container h1{
 	text-align: center;
 }
@@ -72,7 +67,7 @@ h3 {
 /****************TITLE****************/
 
 .one{
-	max-height: 75vh;
+	height: 100%;
 	width:100%;
 	background-image: url('../images/blueprint-2.jpg');
 	background-repeat: repeat;
@@ -88,7 +83,7 @@ h3 {
     -webkit-margin-before: none;
     -webkit-margin-after: none;
     font-weight: 400;
-    margin-top: 13vmin;
+    margin-top: 50px;
 }
 
 .myButton {
@@ -104,11 +99,13 @@ h3 {
 	padding: 7px 25px;
 	transition: .5s;
 	margin-top: 10px; 
+	margin-bottom: 30px; 
 	text-decoration: none;
 }
 
 .myButton:hover {
 	margin-top: 0px; 
+	margin-bottom: 40px; 
 	transition: margin .5s;
 	text-decoration: none;
 	color: #FCB956;
@@ -184,11 +181,14 @@ path {
 	background-color: #0e1c27;
 }
 
+.lightblue {
+	text-shadow: none;
+}
+
 
 .three h2{
 	text-align: center;
-	margin-bottom: 50px; 
-	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 .img-info{
@@ -239,6 +239,9 @@ table, th, td {
 
 /****************PORTFOLIO****************/
 
+.four h2{
+	text-align: center;
+}
 
 /****************TESTIMONIALS****************/
 
@@ -293,7 +296,7 @@ img#addmarginbottom {
 	width: 100%;
 	background-color: #FFF;
 	text-align: center;
-	padding: 20px 0px; 
+	padding-bottom: 20px; 
 }
 
 #hackcville h1{
@@ -328,6 +331,8 @@ img#addmarginbottom {
 
 .row{
 	padding-top: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 form{
@@ -336,15 +341,16 @@ form{
 
 form img{
 	width: 100%;
+	padding-top:50px; 
 }
 .form-group{
-	padding-right: 10px;
-	padding-left: 0px;
+	padding-right: 0px;
+	padding-left: 0px; 
 }
 .subscribe{
-	display: inline-block;
+	/*display: inline-block;
 	float: none;
-	margin: 0;
+	margin: 0;*/
 	font-size: 20px;
 }
 
@@ -428,6 +434,13 @@ form img{
 	#buffer {
 		height: 50px;
 	}
+
+	table{
+		margin-left: 0px;
+	}
+	.thisismytable{
+		padding: 0;
+	}
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
 	.five img{
@@ -448,6 +461,10 @@ form img{
 	.six img{
 		width: 50%;
 		margin:0 auto;
+	}
+
+	.centerbuttons{
+		text-align:center;
 	}
 	/****************HC STUFF****************/
 	#hackcville h1{
@@ -472,15 +489,14 @@ form img{
 @media screen and (max-width:600px){
 	/****************NAVBAR****************/
 	/****************TITLE****************/
-	.one {
-		height: auto;
-	}
-
 	/****************INFO****************/
 	/****************INFO (DETAILED)****************/
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
 	/****************PROJECT LEADS****************/
+	.leadtext h2{
+		text-align: center;
+	}
 	/****************HC STUFF****************/
 	/****************CONTACT****************/
 
