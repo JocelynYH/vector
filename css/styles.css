@@ -232,8 +232,8 @@ table {
 
 table, th, td {
 /*	border: 1px solid white;
-*/	padding: 30px;
-	padding-left: 30px;
+*/	padding: 25px;
+	padding-left: 25px;
 	vertical-align: top;
 }
 
