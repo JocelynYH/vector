@@ -64,6 +64,10 @@ h3 {
 	padding-right: 50px;
 	padding-left: 50px;
 }
+
+.activenav {
+    color: #FFF !important;
+}
 /****************TITLE****************/
 
 .one{
@@ -309,6 +313,10 @@ img#bottomlead {
 	padding-left: 0;
 	padding-right: 0;
 }
+
+.centerbuttons{
+	margin-top: 20px;
+}
 /****************HC STUFF****************/
 #hackcville{
 	width: 100%;
@@ -483,6 +491,13 @@ form img{
 
 	.centerbuttons{
 		text-align:center;
+	}
+	img#toplead {
+		padding-right: 15px;
+	}
+
+	img#bottomlead {
+		padding-left: 15px;
 	}
 	/****************HC STUFF****************/
 	#hackcville h1{
