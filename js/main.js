@@ -47,8 +47,7 @@ $(function(){
         var windowHeight = $(window).height(); // get the height of the window
         var docHeight = $(document).height();
         var navHeight = 69.5;
-        console.log(navHeight);
-
+        
         for (var i=0; i < aArray.length; i++) {
             var theID = aArray[i];
             var divPos = $(theID).offset().top; // get the offset of the div from the top of page

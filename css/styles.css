@@ -317,6 +317,10 @@ img#bottomlead {
 .centerbuttons{
 	margin-top: 20px;
 }
+
+.ta1 .centerbuttons{
+	text-align: right;
+}
 /****************HC STUFF****************/
 #hackcville{
 	width: 100%;
@@ -492,7 +496,12 @@ form img{
 	.centerbuttons{
 		text-align:center;
 	}
+
+	.ta1 .centerbuttons{
+		text-align: center;
+	}
 	img#toplead {
+		margin-bottom: 0;
 		padding-right: 15px;
 	}
 
