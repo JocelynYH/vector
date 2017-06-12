@@ -72,7 +72,7 @@ h3 {
 /****************TITLE****************/
 
 .one{
-	height: 75vh;
+	max-height: 75vh;
 	width:100%;
 	background-image: url('../images/blueprint-2.jpg');
 	background-repeat: repeat;
@@ -88,7 +88,7 @@ h3 {
     -webkit-margin-before: none;
     -webkit-margin-after: none;
     font-weight: 400;
-    margin-top: 20vmin;
+    margin-top: 13vmin;
 }
 
 .myButton {
@@ -100,7 +100,7 @@ h3 {
 	cursor: pointer;
 	font-family: 'Muli';
 	font-weight: 800;
-	font-size: 20px;
+	font-size: 3vmin;
 	padding: 7px 25px;
 	transition: .5s;
 	margin-top: 10px; 
@@ -121,6 +121,16 @@ h3 {
 
 .myButton:visited{
 	text-decoration: none;
+}
+
+.container-button {
+	position: absolute;
+	top: 63vh;
+	display: inline-block;
+	width: 40%;
+	left: 30%;
+	height: 3vmax;
+
 }
 
 /****************THE LOWDOWN****************/
@@ -379,9 +389,6 @@ form img{
 		padding-left: 20px;
 	}
 	/****************TITLE****************/
-	.one {
-	    padding: 0px;
-	}
 
 	/****************INFO****************/
 
@@ -466,7 +473,7 @@ form img{
 	/****************NAVBAR****************/
 	/****************TITLE****************/
 	.one {
-		height: 75vh;
+		height: auto;
 	}
 
 	/****************INFO****************/
@@ -491,3 +498,32 @@ form img{
 		padding-left: 15px;
 	}
 }
+
+
+
+@media screen and (max-width:402px){
+	/****************NAVBAR****************/
+	/****************TITLE****************/
+	.one {
+		height: 300px !important;
+	}
+
+	#vector {
+		font-size: 200px !important;
+		margin-top: 50px;
+		height: 300px;
+
+	}
+
+	/****************INFO****************/
+	/****************INFO (DETAILED)****************/
+	/****************PORTFOLIO****************/
+	/****************TESTIMONIALS****************/
+	/****************PROJECT LEADS****************/
+	/****************HC STUFF****************/
+	/****************CONTACT****************/
+}
+
+
+
+
