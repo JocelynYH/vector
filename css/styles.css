@@ -98,14 +98,14 @@ h3 {
 	font-size: 3vmin;
 	padding: 7px 25px;
 	transition: .5s;
-	margin-top: 10px; 
-	margin-bottom: 30px; 
+	margin-top: 20px; 
+	margin-bottom: 20px; 
 	text-decoration: none;
 }
 
 .myButton:hover {
-	margin-top: 0px; 
-	margin-bottom: 40px; 
+	margin-top: 10px; 
+	margin-bottom: 30px; 
 	transition: margin .5s;
 	text-decoration: none;
 	color: #FCB956;
@@ -120,7 +120,7 @@ h3 {
 	text-decoration: none;
 }
 
-.container-button {
+/*.container-button {
 	position: absolute;
 	top: 63vh;
 	display: inline-block;
@@ -129,7 +129,7 @@ h3 {
 	height: 3vmax;
 
 }
-
+*/
 /****************THE LOWDOWN****************/
 
 
@@ -179,6 +179,7 @@ path {
 #detailed-information {
 	width: 100%;
 	background-color: #0e1c27;
+	height: 100%;
 }
 
 .lightblue {
@@ -268,8 +269,13 @@ table, th, td {
 	margin-bottom: 50px;
 }
 
-img#addmarginbottom {
+img#toplead {
 	margin-bottom: 50px;
+	padding-right: 0;
+}
+
+img#bottomlead {
+	padding-left: 0;
 }
 
 .button{
@@ -290,6 +296,11 @@ img#addmarginbottom {
 }
 .instructor2{
 	display: none;
+}
+
+.leadtext{
+	padding-left: 0;
+	padding-right: 0;
 }
 /****************HC STUFF****************/
 #hackcville{
@@ -386,7 +397,7 @@ form img{
 @media screen and (max-width:1000px){
 
 	.container {
-		padding: 50px 20px;
+		padding: 50px 15px;
 	}
 
 	/****************NAVBAR****************/
@@ -520,15 +531,13 @@ form img{
 @media screen and (max-width:402px){
 	/****************NAVBAR****************/
 	/****************TITLE****************/
-	.one {
+/*	.one {
 		height: 300px !important;
 	}
-
+*/
 	#vector {
-		font-size: 200px !important;
+		font-size: 150px !important;
 		margin-top: 50px;
-		height: 300px;
-
 	}
 
 	/****************INFO****************/
