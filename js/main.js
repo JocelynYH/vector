@@ -1,27 +1,27 @@
 $(function(){
-	var options = [
-	    ["a CIO"],
-	    ["a talent accelerator"],
-	    ["a non-profit"],
-	    ["fun"],
-	    ["professional"],
-	    ["a startup hub"],
-	    ["for education"]
-	];
+	// var options = [
+	//     ["a CIO"],
+	//     ["a talent accelerator"],
+	//     ["a non-profit"],
+	//     ["fun"],
+	//     ["professional"],
+	//     ["a startup hub"],
+	//     ["for education"]
+	// ];
 
-	var interval = 4000;
+	// var interval = 4000;
 
-	var holder1 = $(".holder-1");
-	var currentIndex = 0;
+	// var holder1 = $(".holder-1");
+	// var currentIndex = 0;
 
-	function doIt() {
-		holder1.fadeIn(2000);
-	    holder1.html(options[currentIndex][0]);
-	    currentIndex = (currentIndex + 1) % options.length;
-	    holder1.fadeOut(2000);
-	    setTimeout(doIt, interval);
-	}
-	doIt();
+	// function doIt() {
+	// 	holder1.fadeIn(2000);
+	//     holder1.html(options[currentIndex][0]);
+	//     currentIndex = (currentIndex + 1) % options.length;
+	//     holder1.fadeOut(2000);
+	//     setTimeout(doIt, interval);
+	// }
+	// doIt();
 
 	//smoothscrolling
 	$("nav").find("a").click(function(e) {
@@ -83,6 +83,19 @@ $(function(){
 	// 	    callback: function () {}
 	// 	}
 	// });
+
+	//rotate text
+	$("#js-rotating").Morphext({
+	    // The [in] animation type. Refer to Animate.css for a list of available animations.
+	    animation: "fadeIn",
+	    // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+	    separator: ",",
+	    // The delay between the changing of each phrase in milliseconds.
+	    speed: 4000,
+	    complete: function () {
+	        // Called after the entrance animation is executed.
+	    }
+	});
 });
 
 

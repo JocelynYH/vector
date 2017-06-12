@@ -276,8 +276,13 @@ table, th, td {
 	padding: 20px 0px 40px 0px; 
 }
 
-.six h1{
+.six h2{
 	margin-bottom: 50px;
+	text-align:center; 
+}
+
+.instructor1 h1, .ta1 h1{
+	text-align:left;
 }
 
 img#toplead {
@@ -338,7 +343,6 @@ img#bottomlead {
 
 .holder-1{
 	color: steelblue;
-	display: none;
 }
 
 .videoWrapper {
@@ -534,10 +538,21 @@ form img{
 	/****************TITLE****************/
 	/****************INFO****************/
 	/****************INFO (DETAILED)****************/
+	td{
+		padding: 0;
+		padding-bottom: 20px;
+	}
+	td:first-child{
+		padding-right: 20px;
+	}
+
+	.img-info{
+		display: none;
+	}
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
 	/****************PROJECT LEADS****************/
-	.leadtext h2{
+	.leadtext h1{
 		text-align: center;
 	}
 	/****************HC STUFF****************/
@@ -555,6 +570,10 @@ form img{
 	.form-group{
 		padding-right: 15px;
 		padding-left: 15px;
+	}
+
+	form img{
+		padding-top:0px; 
 	}
 }
 
