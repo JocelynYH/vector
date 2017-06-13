@@ -146,6 +146,10 @@ h3 {
 	padding-top: 30px;
 }
 
+.software-captions, .skills-captions, .curriculum-captions, .perks-captions, .two h3{
+	transition: 0.4s;
+}
+
 .col-md-2.icon {
 	padding: 35px 40px 25px 40px;
 	box-sizing: border-box;
