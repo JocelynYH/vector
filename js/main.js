@@ -174,6 +174,7 @@ $(function(){
 	   $( ".sc8" ).fadeIn( 100 );
 	  }, function() {
 	    $( ".sc8" ).fadeOut( 200 );
+	    $( ".curriculum-captions" ).addClass( "cap" );
 	  }
 	);
 
