@@ -430,6 +430,7 @@ form{
 form img{
 	width: 100%;
 	padding-top:50px; 
+	padding-left: 0 !important;
 }
 .form-group{
 	padding-right: 0px;
@@ -738,6 +739,10 @@ form img{
 
 	.three h2{
 		border-bottom: 2px solid white;
+	}
+
+	td:first-child{
+		padding-right: 60px;
 	}
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
