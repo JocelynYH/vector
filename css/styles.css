@@ -160,8 +160,49 @@ path {
 
 }
 
+.software-icons{
+	text-align: center;
+}
 
-.pleasework{
+.iconset{
+	width: 15%;
+	display: inline-block;
+	margin-left: 3%; 
+	margin-right: 3%; 
+
+}
+
+.iconset2, .iconset3, .iconset4{
+	width: 10%;
+	display: inline-block;
+	margin-left: 2%; 
+	margin-right: 2%;
+}
+
+.software-captions, .skills-captions, .curriculum-captions, .perks-captions{
+	position: relative;
+	display: block;
+	margin-top: 20px; 
+	margin-bottom:20px;
+}
+
+.curriculum-captions, .perks-captions{
+	margin-bottom:60px;
+}
+
+.sc1, .sc2, .sc3, .sc4, .sc5, .sc6, .sc7, .sc8, .sc9, .sc10, .sc11, .sc12, .sc13, .sc14{
+	position: absolute;
+	text-align: center;
+	display: none;
+	top:0;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	font-size: 20px;
+}
+
+/*.pleasework{
 	position: relative;
 }
 
@@ -181,7 +222,7 @@ path {
 
 .perks-container {
 	z-index: 0;
-}
+}*/
 /****************DETAILED INFORMATION****************/
 
 #detailed-information {
@@ -461,7 +502,7 @@ form img{
 
 	/****************INFO****************/
 
-	.software-icons{
+/*	.software-icons{
 		width: 100%;
 	}
 
@@ -469,6 +510,13 @@ form img{
 		width: 40%;
 		display: inline-block;
 	
+	}*/
+	.curriculum-captions{
+		margin-bottom:150px;
+	}
+
+	.perks-captions{
+		margin-bottom:90px;
 	}
 
 	/****************INFO (DETAILED)****************/
@@ -613,6 +661,32 @@ form img{
 	}
 	/****************TITLE****************/
 	/****************INFO****************/
+	.skills-captions{
+		margin-bottom:90px;
+	}
+	.curriculum-captions{
+		margin-bottom:170px;
+	}
+	/****************INFO (DETAILED)****************/
+	/****************PORTFOLIO****************/
+	/****************TESTIMONIALS****************/
+	/****************PROJECT LEADS****************/
+	/****************HC STUFF****************/
+	/****************CONTACT****************/
+}
+
+/*************************************/
+/************** 635 PX ***************/
+/*************************************/
+
+
+@media screen and (max-width:635px){
+	/****************NAVBAR****************/
+	/****************TITLE****************/
+	/****************INFO****************/
+	.software-captions{
+		margin-bottom:80px;
+	}
 	/****************INFO (DETAILED)****************/
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
@@ -634,6 +708,24 @@ form img{
 	}
 	/****************TITLE****************/
 	/****************INFO****************/
+	.iconset, .iconset3{
+		width: 20%;
+		display: inline-block;
+		margin-left: 5%; 
+		margin-right: 5%; 
+
+	}
+
+	.iconset2, .iconset4{
+		width: 15%;
+		display: inline-block;
+		margin-left: 5%; 
+		margin-right: 5%;
+	}
+
+	.sc1, .sc2, .sc3, .sc4, .sc5, .sc6, .sc7, .sc8, .sc9, .sc10, .sc11, .sc12, .sc13, .sc14{
+		font-size: 15px;
+	}
 	/****************INFO (DETAILED)****************/
 
 	.img-info{
@@ -674,6 +766,9 @@ form img{
 	}
 
 	/****************INFO****************/
+	.perks-captions {
+	    margin-bottom: 120px;
+	}
 	/****************INFO (DETAILED)****************/
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/

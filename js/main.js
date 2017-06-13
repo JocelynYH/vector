@@ -96,49 +96,162 @@ $(function(){
 	        // Called after the entrance animation is executed.
 	    }
 	});
+
+	//descriptions
+	$( ".is1" ).hover(
+	  function() {
+	   $( ".sc1" ).fadeIn( 100 );
+	  }, function() {
+	    $( ".sc1" ).fadeOut( 200 );
+	  }
+	);
+
+	$( ".is2" ).hover(
+	  function() {
+	   $( ".sc2" ).fadeIn( 100 );
+	  }, function() {
+	    $( ".sc2" ).fadeOut( 200 );
+	  }
+	);
+
+	$( ".is3" ).hover(
+	  function() {
+	   $( ".sc3" ).fadeIn( 100 );
+	  }, function() {
+	    $( ".sc3" ).fadeOut( 200 );
+	  }
+	);
+
+	$( ".is4" ).hover(
+	  function() {
+	   $( ".sc4" ).fadeIn( 100 );
+	  }, function() {
+	    $( ".sc4" ).fadeOut( 200 );
+	  }
+	);
+
+	$( ".is5" ).hover(
+	  function() {
+	   $( ".sc5" ).fadeIn( 100 );
+	  }, function() {
+	    $( ".sc5" ).fadeOut( 200 );
+	  }
+	);
+
+	$( ".is6" ).hover(
+	  function() {
+	   $( ".sc6" ).fadeIn( 100 );
+	  }, function() {
+	    $( ".sc6" ).fadeOut( 200 );
+	  }
+	);
+
+	$( ".is7" ).hover(
+	  function() {
+	   $( ".sc7" ).fadeIn( 100 );
+	  }, function() {
+	    $( ".sc7" ).fadeOut( 200 );
+	  }
+	);
+
+	$( ".is8" ).hover(
+	  function() {
+	   $( ".sc8" ).fadeIn( 100 );
+	  }, function() {
+	    $( ".sc8" ).fadeOut( 200 );
+	  }
+	);
+
+	$( ".is9" ).hover(
+	  function() {
+	   $( ".sc9" ).fadeIn( 100 );
+	  }, function() {
+	    $( ".sc9" ).fadeOut( 200 );
+	  }
+	);
+
+	$( ".is10" ).hover(
+	  function() {
+	   $( ".sc10" ).fadeIn( 100 );
+	  }, function() {
+	    $( ".sc10" ).fadeOut( 200 );
+	  }
+	);
+
+	$( ".is11" ).hover(
+	  function() {
+	   $( ".sc11" ).fadeIn( 100 );
+	  }, function() {
+	    $( ".sc11" ).fadeOut( 200 );
+	  }
+	);
+
+	$( ".is12" ).hover(
+	  function() {
+	   $( ".sc12" ).fadeIn( 100 );
+	  }, function() {
+	    $( ".sc12" ).fadeOut( 200 );
+	  }
+	);
+
+	$( ".is13" ).hover(
+	  function() {
+	   $( ".sc13" ).fadeIn( 100 );
+	  }, function() {
+	    $( ".sc13" ).fadeOut( 200 );
+	  }
+	);
+
+	$( ".is14" ).hover(
+	  function() {
+	   $( ".sc14" ).fadeIn( 100 );
+	  }, function() {
+	    $( ".sc14" ).fadeOut( 200 );
+	  }
+	);
 });
 
 
 
-$(document).ready(function(){
-	$(".pleasework.a").mouseenter(function(){
-		$(".housemenu.a").slideDown(500);
-	});
+// $(document).ready(function(){
+// 	$(".pleasework.a").mouseenter(function(){
+// 		$(".housemenu.a").slideDown(500);
+// 	});
 
-	$(".pleasework.a").mouseout(function(){
-		$(".housemenu.a").slideUp(400);
-	});
-});
+// 	$(".pleasework.a").mouseout(function(){
+// 		$(".housemenu.a").slideUp(400);
+// 	});
+// });
 
-$(document).ready(function(){
-	$(".pleasework.b").mouseenter(function(){
-		$(".housemenu.b").slideDown(500);
-	});
+// $(document).ready(function(){
+// 	$(".pleasework.b").mouseenter(function(){
+// 		$(".housemenu.b").slideDown(500);
+// 	});
 
-	$(".pleasework.b").mouseout(function(){
-		$(".housemenu.b").slideUp(400);
-	});
-});
+// 	$(".pleasework.b").mouseout(function(){
+// 		$(".housemenu.b").slideUp(400);
+// 	});
+// });
 
-$(document).ready(function(){
-	$(".pleasework.c").mouseenter(function(){
-		$(".housemenu.c").slideDown(500);
-	});
+// $(document).ready(function(){
+// 	$(".pleasework.c").mouseenter(function(){
+// 		$(".housemenu.c").slideDown(500);
+// 	});
 
-	$(".pleasework.c").mouseout(function(){
-		$(".housemenu.c").slideUp(400);
-	});
-});
+// 	$(".pleasework.c").mouseout(function(){
+// 		$(".housemenu.c").slideUp(400);
+// 	});
+// });
 
-$(document).ready(function(){
-	$(".pleasework.d").mouseenter(function(){
-		$(".housemenu.d").slideDown(500);
-	});
+// $(document).ready(function(){
+// 	$(".pleasework.d").mouseenter(function(){
+// 		$(".housemenu.d").slideDown(500);
+// 	});
 
-	$(".pleasework.d").mouseout(function(){
-		$(".housemenu.d").slideUp(400);
-	});
-});
+// 	$(".pleasework.d").mouseout(function(){
+// 		$(".housemenu.d").slideUp(400);
+// 	});
+// });
 
 
 // end ready
