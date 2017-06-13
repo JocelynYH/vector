@@ -100,62 +100,77 @@ $(function(){
 	//descriptions
 	$( ".is1" ).hover(
 	  function() {
+	   $( ".software-captions" ).removeClass( "cap" );
 	   $( ".sc1" ).fadeIn( 100 );
 	  }, function() {
 	    $( ".sc1" ).fadeOut( 200 );
+	    $( ".software-captions" ).addClass( "cap" );
 	  }
 	);
 
 	$( ".is2" ).hover(
 	  function() {
+	   $( ".software-captions" ).removeClass( "cap" );
 	   $( ".sc2" ).fadeIn( 100 );
 	  }, function() {
 	    $( ".sc2" ).fadeOut( 200 );
+	    $( ".software-captions" ).addClass( "cap" );
 	  }
 	);
 
 	$( ".is3" ).hover(
 	  function() {
+	   $( ".software-captions" ).removeClass( "cap" );
 	   $( ".sc3" ).fadeIn( 100 );
 	  }, function() {
 	    $( ".sc3" ).fadeOut( 200 );
+	    $( ".software-captions" ).addClass( "cap" );
 	  }
 	);
 
 	$( ".is4" ).hover(
 	  function() {
+	   $( ".skills-captions" ).removeClass( "cap" );
 	   $( ".sc4" ).fadeIn( 100 );
 	  }, function() {
 	    $( ".sc4" ).fadeOut( 200 );
+	    $( ".skills-captions" ).addClass( "cap" );
 	  }
 	);
 
 	$( ".is5" ).hover(
 	  function() {
+	   $( ".skills-captions" ).removeClass( "cap" );
 	   $( ".sc5" ).fadeIn( 100 );
 	  }, function() {
 	    $( ".sc5" ).fadeOut( 200 );
+	    $( ".skills-captions" ).addClass( "cap" );
 	  }
 	);
 
 	$( ".is6" ).hover(
 	  function() {
+	   $( ".skills-captions" ).removeClass( "cap" );
 	   $( ".sc6" ).fadeIn( 100 );
 	  }, function() {
 	    $( ".sc6" ).fadeOut( 200 );
+	    $( ".skills-captions" ).addClass( "cap" );
 	  }
 	);
 
 	$( ".is7" ).hover(
 	  function() {
+	   $( ".skills-captions" ).removeClass( "cap" );
 	   $( ".sc7" ).fadeIn( 100 );
 	  }, function() {
 	    $( ".sc7" ).fadeOut( 200 );
+	    $( ".skills-captions" ).addClass( "cap" );
 	  }
 	);
 
 	$( ".is8" ).hover(
 	  function() {
+	   $( ".curriculum-captions" ).removeClass( "cap" );
 	   $( ".sc8" ).fadeIn( 100 );
 	  }, function() {
 	    $( ".sc8" ).fadeOut( 200 );
@@ -164,49 +179,61 @@ $(function(){
 
 	$( ".is9" ).hover(
 	  function() {
+	   $( ".curriculum-captions" ).removeClass( "cap" );
 	   $( ".sc9" ).fadeIn( 100 );
 	  }, function() {
 	    $( ".sc9" ).fadeOut( 200 );
+	    $( ".curriculum-captions" ).addClass( "cap" );
 	  }
 	);
 
 	$( ".is10" ).hover(
 	  function() {
+	   $( ".curriculum-captions" ).removeClass( "cap" );
 	   $( ".sc10" ).fadeIn( 100 );
 	  }, function() {
 	    $( ".sc10" ).fadeOut( 200 );
+	    $( ".curriculum-captions" ).addClass( "cap" );
 	  }
 	);
 
 	$( ".is11" ).hover(
 	  function() {
+	   $( ".perks-captions" ).removeClass( "cap" );
 	   $( ".sc11" ).fadeIn( 100 );
 	  }, function() {
 	    $( ".sc11" ).fadeOut( 200 );
+	    $( ".perks-captions" ).addClass( "cap" );
 	  }
 	);
 
 	$( ".is12" ).hover(
 	  function() {
+	   $( ".perks-captions" ).removeClass( "cap" );
 	   $( ".sc12" ).fadeIn( 100 );
 	  }, function() {
 	    $( ".sc12" ).fadeOut( 200 );
+	    $( ".perks-captions" ).addClass( "cap" );
 	  }
 	);
 
 	$( ".is13" ).hover(
 	  function() {
+	   $( ".perks-captions" ).removeClass( "cap" );
 	   $( ".sc13" ).fadeIn( 100 );
 	  }, function() {
 	    $( ".sc13" ).fadeOut( 200 );
+	    $( ".perks-captions" ).addClass( "cap" );
 	  }
 	);
 
 	$( ".is14" ).hover(
 	  function() {
+	   $( ".perks-captions" ).removeClass( "cap" );
 	   $( ".sc14" ).fadeIn( 100 );
 	  }, function() {
 	    $( ".sc14" ).fadeOut( 200 );
+	    $( ".perks-captions" ).addClass( "cap" );
 	  }
 	);
 });
