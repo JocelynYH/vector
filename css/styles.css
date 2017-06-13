@@ -263,14 +263,18 @@ table, th, td {
 	padding: 20px 0px; 
 }
 
-.testimonialtext h2{
-	margin-bottom: 20px; 
-	vertical-align: middle;
+.five img{
+	padding-left:0;
 }
 
-.testimonialtext p{
-	font-size: 20px;
+.testimonialtext h4{
+	margin-top: 50px; 
+	margin-bottom: 40px;
 }
+
+.testimonialtext h2{
+}
+
 /****************PROJECT LEADS****************/
 #leads{
 	padding: 20px 0px 40px 0px; 
@@ -361,7 +365,7 @@ img#bottomlead {
 
 /****************CONTACT****************/
 .eight h1{
-	margin-bottom: 40px; 
+	margin-bottom: 0px; 
 }
 
 .row{
@@ -381,12 +385,22 @@ form img{
 .form-group{
 	padding-right: 0px;
 	padding-left: 0px; 
+	padding-bottom: 0 !important;
+	min-height: 1px !important;
 }
 .subscribe{
 	/*display: inline-block;
 	float: none;
 	margin: 0;*/
 	font-size: 20px;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    width: 100% !important;
+
+}
+
+#mc_embed_signup input{
+	border:0;
 }
 
 
@@ -485,6 +499,21 @@ form img{
 	.testimonialtext h2, .testimonialtext p, .five{
 		text-align: center;
 	}
+
+
+	.five img{
+		padding-left:15px;
+	}
+
+	.testimonialtext h4{
+		margin-top: 10px; 
+		margin-bottom: 10px;
+	}
+
+	.testimonialtext h2{
+		font-size:30px;
+	}
+
 	/****************PROJECT LEADS****************/
 	.instructor1{
 		display: none;
@@ -523,6 +552,10 @@ form img{
 	/****************CONTACT****************/
 	form img{
 		width: 50%;
+	}
+
+	#mc_embed_signup form {
+		text-align: center;
 	}
 }
 
@@ -573,7 +606,12 @@ form img{
 	}
 
 	form img{
-		padding-top:0px; 
+		padding-top:0px;
+	}
+
+	.clear{
+		padding-left: 15px !important; 
+		padding-right: 30px; 
 	}
 }
 
