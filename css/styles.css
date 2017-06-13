@@ -419,6 +419,11 @@ form img{
 	}
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
+	.testimonialtext h4{
+		margin-top: 0px; 
+		margin-bottom: 40px;
+	}
+
 	/****************PROJECT LEADS****************/
 	/****************HC STUFF****************/
 	/****************CONTACT****************/
@@ -490,6 +495,14 @@ form img{
 	.thisismytable{
 		padding: 0;
 	}
+
+	td{
+		padding: 0;
+		padding-bottom: 20px;
+	}
+	td:first-child{
+		padding-right: 20px;
+	}
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
 	.five img{
@@ -520,7 +533,7 @@ form img{
 	}
 	.instructor2{
 		display: block;
-		margin-bottom: 40px; 
+		margin-bottom: 70px; 
 	}
 	.six img{
 		width: 50%;
@@ -542,6 +555,10 @@ form img{
 	img#bottomlead {
 		padding-left: 15px;
 	}
+
+	.leadtext h1{
+		text-align: center;
+	}
 	/****************HC STUFF****************/
 	#hackcville h1{
 		font-size: 30pt;
@@ -552,47 +569,11 @@ form img{
 	/****************CONTACT****************/
 	form img{
 		width: 50%;
+		padding-top:0px;
 	}
 
 	#mc_embed_signup form {
 		text-align: center;
-	}
-}
-
-
-
-/*************************************/
-/************** 600 PX ***************/
-/*************************************/
-
-
-@media screen and (max-width:600px){
-	/****************NAVBAR****************/
-	/****************TITLE****************/
-	/****************INFO****************/
-	/****************INFO (DETAILED)****************/
-	td{
-		padding: 0;
-		padding-bottom: 20px;
-	}
-	td:first-child{
-		padding-right: 20px;
-	}
-
-	.img-info{
-		display: none;
-	}
-	/****************PORTFOLIO****************/
-	/****************TESTIMONIALS****************/
-	/****************PROJECT LEADS****************/
-	.leadtext h1{
-		text-align: center;
-	}
-	/****************HC STUFF****************/
-	/****************CONTACT****************/
-
-	.eight h1{
-		font-size: 25px; 
 	}
 
 	.row {
@@ -605,14 +586,68 @@ form img{
 		padding-left: 15px;
 	}
 
-	form img{
-		padding-top:0px;
-	}
-
 	.clear{
 		padding-left: 15px !important; 
 		padding-right: 30px; 
 	}
+}
+
+/*************************************/
+/************** 868 PX ***************/
+/*************************************/
+
+
+@media screen and (max-width:868px){
+	/****************NAVBAR****************/
+	.nav a{
+		font-size: 12px;
+	}
+	/****************TITLE****************/
+	/****************INFO****************/
+	/****************INFO (DETAILED)****************/
+	/****************PORTFOLIO****************/
+	/****************TESTIMONIALS****************/
+	/****************PROJECT LEADS****************/
+	/****************HC STUFF****************/
+	/****************CONTACT****************/
+}
+
+
+/*************************************/
+/************** 600 PX ***************/
+/*************************************/
+
+
+@media screen and (max-width:600px){
+	/****************NAVBAR****************/
+	.nav a{
+		font-size: 14px;
+	}
+	/****************TITLE****************/
+	/****************INFO****************/
+	/****************INFO (DETAILED)****************/
+
+	.img-info{
+		display: none;
+	}
+
+	.three h2{
+		border-bottom: 2px solid white;
+	}
+	/****************PORTFOLIO****************/
+	/****************TESTIMONIALS****************/
+	/****************PROJECT LEADS****************/
+	
+	/****************HC STUFF****************/
+	.seven h1{
+		font-size: 20px;
+	}
+	/****************CONTACT****************/
+
+	.eight h1{
+		font-size: 25px; 
+	}
+
 }
 
 
