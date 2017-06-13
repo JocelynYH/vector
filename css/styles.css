@@ -403,6 +403,11 @@ form img{
 	border:0;
 }
 
+.response{
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+	width: 100% !important; 
+}
 
 /*************************************/
 /************* 1200 PX ***************/
