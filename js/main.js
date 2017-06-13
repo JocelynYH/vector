@@ -59,7 +59,7 @@ $(function(){
             }
         }
 
-        if(windowPos + windowHeight == docHeight) {
+        if(windowPos + windowHeight + 50>= docHeight) {
             if (!$("nav li:last-child a").hasClass("activenav")) {
                 var navActiveCurrent = $(".activenav").attr("href");
                 $("a[href='" + navActiveCurrent + "']").removeClass("activenav");
