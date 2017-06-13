@@ -164,6 +164,10 @@ path {
 
 }
 
+#topsoft{
+	margin-top: 30px; 
+}
+
 .software-icons{
 	text-align: center;
 }
