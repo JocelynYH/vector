@@ -124,6 +124,10 @@ h3 {
 	text-decoration: none;
 }
 
+.myButton:focus{
+	text-decoration: none;
+}
+
 /*.container-button {
 	position: absolute;
 	top: 63vh;
