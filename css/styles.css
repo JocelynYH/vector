@@ -31,6 +31,11 @@ h2, h3 {
 h3 {
 	font-size: 30px;
 	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+p {
+	font-size: 18px;
 }
 
 .container h1{
@@ -193,7 +198,7 @@ path {
 }
 
 .img-info{
-	height: 575px;
+	height: 400px;
 	background: url("../images/info.jpg") no-repeat center center;
 	-webkit-background-size: auto 95%;
     -moz-background-size: auto 95%;
@@ -221,20 +226,20 @@ table {
 	margin: 0 auto;
 	width: 100%;
 	margin-left: 30px;
-	font-size: 24px;
+	font-size: 18px;
 	vertical-align: top;
 	height: auto;
 }
 
 table, th, td {
 /*	border: 1px solid white;
-*/	padding: 30px;
+*/	padding: 18px;
 	padding-left: 30px;
 	vertical-align: top;
 }
 
 .specialtrnopadding {
-	padding-top: 15px;
+	padding-top: 12px;
 }
 
 
