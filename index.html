@@ -4,6 +4,27 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="hackcville vector design program school education startup technology coding development marketing design adobe resume experience expertise career start curriculum charlottesville cville uva virginia university">
+    <meta name="description" content="Vector is our 12-week graphic design program. You learn design principles, Adobe Photoshop, Illustrator, and InDesign, and develop a small portfolio of work.">
+
+    <meta property="og:title" content="Learn design principles, Adobe Photoshop, Illustrator, and InDesign with HackCville" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://wireframewebsites.com/rashidlasker/vector/"/>
+	<meta property="og:image" content="http://1qjqp144udvjh172yr0eqox1.wpengine.netdna-cdn.com/wp-content/uploads/2017/01/pexels-photo-1.jpg" />
+	<meta property="og:image:width" content = "1099" />
+	<meta property="og:image:height" content = "732" />
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-100927234-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Vector | A HackCville Program</title>
@@ -12,10 +33,11 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- other css -->
-    <link rel="stylesheet" href="js/textillate-master/assets/animate.css">
+    <link rel="stylesheet" href="bower_components/Morphext/dist/morphext.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.css">
+    <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,400i,600,600i,700,800,900,900i|Poppins:700|Raleway:90|Arvo:700" rel="stylesheet">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -29,7 +51,7 @@
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="margin-top: 18px; margin-bottom: 18px;">
 	        <span class="sr-only">Toggle navigation</span>
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
@@ -43,9 +65,11 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav navbar-right">
+	      	<li><a href="#title" class="activenav">Home</a></li>
 	        <li><a href="#information">Vector</a></li>
 	        <li><a href="#detailed-information">Details</a></li>
 	        <li><a href="#portfolio">Portfolio</a></li>
+	        <li><a href="#testimonial">Testimonials</a></li>
 	        <li><a href="#leads">Program Leads</a></li>
 	        <li><a href="#hackcville">What is HC?</a></li>
 	        <li><a href="#contact">Newsletter</a></li>
@@ -58,7 +82,7 @@
 		<div class="container one">
 			<!-- <h1 id="vector" class="tlt" data-in-effect="flash">VECTOR</h1> -->
 			<h1 id="vector">VECTOR</h1>
-			<div class="container-button"><a href="#" class="myButton">APPLY NOW</a></div>
+			<div class="container-button"><a href="#" class="myButton" alt="application">APPLY NOW</a></div>
 		</div>
 	</section>
 
@@ -151,6 +175,7 @@
 			
 	</section>
 
+
 	<!---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	~~~~~~~~~~~~~DETAILED INFORMATION~~~~~~~~~~~~
 	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -158,12 +183,13 @@
 	<section id="detailed-information" class="itsasection">
 		<div class="container three addpadding">
 			<h2 class="lightblue">What else should I know?</h2>
-			<div class="img-info col-md-5"></div>
+			<div class="img-info col-md-5" alt="Design Studio"></div>
 			<div class="thisismytable col-md-7">
 				<table>
 					<tr class="specialtrnopadding">
 						<td class="specialtrnopadding">Syllabus</td>
 						<td class="specialtrnopadding"><a href="https://docs.google.com/document/d/1zhy1PtOYodO8OMA_qxhlQh2p3udWgetDsOjzEhk5vkc/edit" target="_blank"><p>Link</p></a></td>
+
 					</tr>
 
 					<tr>
@@ -200,40 +226,32 @@
 			<h2>Portfolio Examples</h2>
 			<!-- Carousel
 		    ================================================== -->
-		    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		    <div id="myCarousel" class="carousel slide" data-interval="false">
 		      <!-- Indicators -->
 		      <ol class="carousel-indicators">
 		        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 		        <li data-target="#myCarousel" data-slide-to="1"></li>
 		        <li data-target="#myCarousel" data-slide-to="2"></li>
 		        <li data-target="#myCarousel" data-slide-to="3"></li>
-		        <li data-target="#myCarousel" data-slide-to="4"></li>
-		        <li data-target="#myCarousel" data-slide-to="5"></li>
-		        <li data-target="#myCarousel" data-slide-to="6"></li>
-		        <li data-target="#myCarousel" data-slide-to="7"></li>
 		      </ol>
 		      <div class="carousel-inner" role="listbox">
-		        <div class="item active">
-		          <img class="first-slide" src="./images/portfolio/resume/at_resume.jpg" alt="First slide">
+		      	<div class="item active">
+		          <img class="sixth-slide" src="./images/portfolio/vec/1.jpg" alt="Sixth slide">
+		          <img class="second-slide" src="./images/portfolio/rebrand/1.jpg" alt="Second slide">
+		          <img class="fourth-slide" src="./images/portfolio/rebrand/3.jpg" alt="Fourth slide">
 		        </div>
 		        <div class="item">
-		          <img class="second-slide" src="./images/portfolio/rebrand/1.jpg" alt="Second slide">
+		          <img class="first-slide" src="./images/portfolio/resume/at_resume.jpg" alt="First slide">
 		        </div>
 		        <div class="item">
 		          <img class="third-slide" src="./images/portfolio/rebrand/2.jpg" alt="Third slide">
 		        </div>
-		        <div class="item">
-		          <img class="fourth-slide" src="./images/portfolio/rebrand/3.jpg" alt="Fourth slide">
-		        </div>
-		        <div class="item">
-		          <img class="fifth-slide" src="./images/portfolio/resume/dp_resume.jpg" alt="Fifth slide">
-		        </div>
-		        <div class="item">
-		          <img class="sixth-slide" src="./images/portfolio/vec/1.jpg" alt="Sixth slide">
-		        </div>
-		        <div class="item">
+		        <!-- <div class="item">
 		          <img class="seventh-slide" src="./images/portfolio/vec/2.jpg" alt="Seventh slide">
-		        </div>
+		        </div> -->
+		        <!-- <div class="item">
+		          <img class="fifth-slide" src="./images/portfolio/resume/dp_resume.jpg" alt="Fifth slide">
+		        </div> -->
 		        <div class="item">
 		          <img class="eigth-slide" src="./images/portfolio/flyer/1.jpg" alt="Eigth slide" height="200">
 		        </div>
@@ -292,7 +310,7 @@
 			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 			    <span class="sr-only">Next</span>
 			  </a>
-			</div> -->
+			</div>-->
 			<!-- <img src="./images/portfolio/resume/at_resume.jpg" class="img-responsive col-md-12" alt="Responsive image">
 			<img src="./images/portfolio/rebrand/1.jpg" class="img-responsive col-md-12" alt="Responsive image">
 			<img src="./images/portfolio/rebrand/2.jpg" class="img-responsive col-md-12" alt="Responsive image">
@@ -306,15 +324,15 @@
 
 
 	<!---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	~~~~~~~~~~~~~~~~Portfolio~~~~~~~~~~~~~~~~~~~~
+	~~~~~~~~~~~~~~~~Testimonial~~~~~~~~~~~~~~~~~~~~
 	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 	<section id="testimonial" class="itsasection">
 		<div class="container five">
-			<img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/15055709_1151462548270829_7112157267698730913_n.jpg?oh=21edcc6cd3eaf01b65e61fb269da7bee&oe=59E5D5B0" class="img-responsive col-md-offset-1 col-md-3" alt="Responsive image">
-			<div class="testimonialtext col-md-8">
-				<h2>"Vector is like, pretty alright."</h2>
-				<p>-Dor Friedman, Former Student</p>
+			<img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/12509544_1526159064348920_1006452288419387646_n.jpg?oh=0c688d7e1edcf160787c47de51833d52&oe=59E813A2" class="img-responsive  col-md-3" alt="Photo of Michael Benos">
+			<div class="testimonialtext col-md-9">
+				<h4>"I really loved the Vector program and hope to take more classes through HackCville. I had my doubts about the course since this was the first semester Vector was being offered but it ended up being very rewarding. Can’t wait for next semester!"</h4>
+				<h2>-Michael Benos, Former Student</h2>
 			</div>
 		</div>
 	</section>
@@ -325,43 +343,39 @@
 
 	<section id="leads" class="itsasection">
 		<div class="container six">
-			<h2 class='centerthis'>Program Leads</h2>
-
+			<h2>Program Leads</h2>
 			<div class="instructor1">
-				<div class="instructorcontainer col-md-3 makeresponsive">
-					<img src="images/daniel.jpg" 
-					class="img-responsive headshot" 
-					alt="Responsive image " id="addmarginbottom">
-				</div>
-				<div class="leadtext uno col-md-9 ">
-					<h3>Billy-Tim Zeigler, Instructor</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi lacus, commodo in interdum sit amet, commodo ut neque. Ut consectetur, leo ut cursus facilisis, mi nulla posuere eros, at pretium enim mi quis erat. Fusce vel laoreet nulla. Aenean sit amet dignissim neque. Morbi rutrum maximus magna ut volutpat.</p>
-					<a class="button portfolio" href="#" alt="see the instructor's portfolios">Portfolio</a>
-					<a class="button resume" href="#">Resume</a>
-				</div>
-				<div class="instructorcontainer col-md-3 responsivehide">
-					<img 
-						src="images/daniel.jpg" class="img-responsive headshot " alt="Responsive image" id="addmarginbottom">
+				<div class="leadtext col-md-9">
+					<h1>Tatiana Kalainoff, Instructor</h1>
+					<p>Tatiana Kalainoff is the program lead for Vector. She’s a 4th Year at UVA studying Pre-Professional Architecture, and also serves as the Head of Design for Radical Advertising. If you questions about Vector, you can get in touch with Tatiana at <a href="mailto:tatiana@hackcville.com" target="_top" alt="email link">tatiana@hackcville.com.</a></p>
+					<div class="centerbuttons">
+						<a class="btn btn-primary button" href="https://tlkportfolio.wordpress.com/" alt="see the instructor's portfolios">Portfolio</a>
+						<a class="btn btn-primary button" href="#" alt="see the instructor's resume">Resume</a>
+					</div>
 				</div>
 			</div>
-
-
+			<img src="./images/leads/tati.jpg" class="img-responsive col-md-3 headshot" alt="Instructor" id="toplead">
 			<div class="instructor2">
-				<div class="instructorcontainer col-md-3 makeresponsive">
-					<img src="images/daniel.jpg" class="img-responsive headshot " alt="Responsive image" id="addmarginbottom">
-				</div>
-				<div class="leadtext dos col-md-9">
-					<h3>Billy-Tim Zeigler, Instructor</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi lacus, commodo in interdum sit amet, commodo ut neque. Ut consectetur, leo ut cursus facilisis, mi nulla posuere eros, at pretium enim mi quis erat. Fusce vel laoreet nulla. Aenean sit amet dignissim neque. Morbi rutrum maximus magna ut volutpat.</p>
-					<a class="button portfolio" href="#" alt="see the instructor's portfolios">Portfolio</a>
-					<a class="button resume" href="#">Resume</a>
-				</div>
-				<div class="instructorcontainer col-md-3 responsivehide">
-					<img src="images/daniel.jpg" class="img-responsive headshot" alt="Responsive image " id="addmarginbottom">
+				<div class="leadtext col-md-9">
+					<h1>Tatiana Kalainoff, Instructor</h1>
+					<p>Tatiana Kalainoff is the program lead for Vector. She’s a 4th Year at UVA studying Pre-Professional Architecture, and also serves as the Head of Design for Radical Advertising. If you questions about Vector, you can get in touch with Tatiana at <a href="mailto:tatiana@hackcville.com" target="_top" alt="email link">tatiana@hackcville.com.</a></p>
+					<div class="centerbuttons">
+						<a class="btn btn-primary button" href="#" alt="see the instructor's portfolios">Portfolio</a>
+						<a class="btn btn-primary button" href="#" alt="see the instructor's resume">Resume</a>
+					</div>
 				</div>
 			</div>
-	<!-- `	 -->
-			
+			<div class="ta1">
+				<img src="./images/leads/eleanor.jpg" class="img-responsive col-md-3 headshot" alt="Teacher's assistant"  id="bottomlead">
+				<div class="leadtext col-md-9">
+					<h1>Eleanor Birle, TA</h1>
+					<p>Eleanor is the assistant instructor of Vector. She’s a 3rd Year at UVA studying Pre-Professional Architecture and Studio Art and a marketing strategist for Radical Advertising. </p>
+					<div class="centerbuttons">
+						<a class="btn btn-primary button" href="#" alt="see the instructor's portfolios">Portfolio</a>
+						<a class="btn btn-primary button" href="#" alt="see the instructor's resume">Resume</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -371,7 +385,7 @@
 
 	<section id="hackcville" class="itsasection">
 		<div class="container seven">
-			<h1>"HackCville is <span class="holder-1"></span>."</h1>
+			<h1>"HackCville is <span class="holder-1" id="js-rotating">a CIO, a talent accelerator, a non-profit, fun, professional, a startup hub, for education</span>."</h1>
 			<div class="videoWrapper">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/ZtrqksiX1U4" frameborder="0" allowfullscreen></iframe>
 			</div>
@@ -383,20 +397,29 @@
 	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 	<section id="contact" class="itsasection">
 		<div class="container eight">
-			<h1>Join <strong>2,500+ others</strong> and sign up to receive updates on our events, programs, and how you can get involved.</h1>
-			<form>
-				<img class="col-md-offset-2 col-md-3" src="http://hackcville.com/summer/images/hackcville.png">
-				<div class="row col-md-7">
-					<div class="form-group form-group-lg col-md-8">	
-					  <input type="text" class="form-control" placeholder="First Name">
-					</div><div class="form-group form-group-lg col-md-8">
-					  <input type="text" class="form-control" placeholder="Last Name">
-					</div><div class="form-group form-group-lg col-md-8">
-					  <input type="email" class="form-control" placeholder="E-mail">
+			<h1 >Join <strong>2,500+ others</strong> and sign up to receive updates on our events, programs, and how you can get involved.</h1>
+			<div id="mc_embed_signup">
+				<form action="https://hackcville.us5.list-manage.com/subscribe/post?u=dae9a7242f836507908a2f2d6&amp;id=97161904f1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<div id="mc_embed_signup_scroll">
+						<img class="col-md-offset-2 col-md-3" src="http://hackcville.com/summer/images/hackcville.png">
+						<div class="row col-md-5">
+							<div class="mc-field-group form-group form-group-lg col-md-8">	
+							  <input type="text" class="form-control" placeholder="First Name" value="" name="FNAME" class="" id="mce-FNAME">
+							</div><div class="mc-field-group form-group form-group-lg col-md-8">
+							  <input type="text" class="form-control" placeholder="Last Name" value="" name="LNAME" class="" id="mce-LNAME">
+							</div><div class="mc-field-group form-group form-group-lg col-md-8">
+							  <input type="email" class="form-control" placeholder="E-mail" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+							</div>
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_dae9a7242f836507908a2f2d6_97161904f1" tabindex="-1" value=""></div>
+							<div class="col-md-12 clear" style="padding-left: 0px;">
+								<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary subscribe">
+							</div>
+						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 					</div>
-					<button type="submit" class="btn btn-primary col-md-8 subscribe">Subscribe to our Newsletter</button>
-				</div>
-			</form>
+				</form>
+			</div>
 		</div>
 	</section>
 
@@ -405,9 +428,13 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
+    <script src="bower_components/Morphext/dist/morphext.min.js"></script>
+    <script src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[5]='MMERGE5';ftypes[5]='text';fnames[6]='MMERGE6';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    <script src="js/main.js"></script>
+
     <!-- <script src="js/textillate-master/jquery.textillate.js"></script>
     <script src="js/textillate-master/assets/jquery.fittext.js"></script>
     <script src="js/textillate-master/assets/jquery.lettering.js"></script> -->
-    <script src="js/main.js"></script>
 </body>
 </html>
