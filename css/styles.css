@@ -1,6 +1,6 @@
 @font-face {
 	font-family: bluprint;
-	src: url('../BluprintDEMO.otf');
+	src: url('fonts/BluprintDEMO.otf');
 }
 
 body {
@@ -83,7 +83,8 @@ h3 {
     -webkit-margin-before: none;
     -webkit-margin-after: none;
     font-weight: 400;
-    margin-top: 50px;
+    margin-top: 70px;
+    font-family: 'bluprint';
 }
 
 .myButton {
@@ -138,8 +139,8 @@ h3 {
 	padding-top: 30px;
 }
 
-.col-md-2.icon {
-	padding: 35px 40px 25px 40px;
+.icon {
+	padding: 10px;
 	box-sizing: border-box;
 	fill: #78ABD8;
   	stroke: #78ABD8;
@@ -262,6 +263,7 @@ table, th, td {
 /****************PROJECT LEADS****************/
 #leads{
 	padding: 20px 0px 40px 0px; 
+	text-align: left;
 }
 
 .six h1{
@@ -270,6 +272,8 @@ table, th, td {
 
 img#addmarginbottom {
 	margin-bottom: 50px;
+	margin-top: 50px;
+
 }
 
 .button{
@@ -288,9 +292,36 @@ img#addmarginbottom {
 .headshot {
 	margin-bottom: 0px;
 }
-.instructor2{
+
+.centerthis {
+	text-align: center;
+}
+
+.responsivehide {
+	display: inline-block;
+}
+
+.makeresponsive {
 	display: none;
 }
+
+.instructorcontainer {
+	padding-left: 0;
+}
+
+.leadtext.uno {
+	padding-left: 0;
+}
+
+.leadtext.dos {
+	text-align: right;
+}
+
+.portfolio {
+	margin-right: 20px;
+}
+
+
 /****************HC STUFF****************/
 #hackcville{
 	width: 100%;
@@ -398,8 +429,10 @@ form img{
 
 	/****************INFO****************/
 
-	.software-icons{
-		width: 100%;
+	.ablock{
+		width: 45%;
+		display: inline-block;
+
 	}
 
 	.membershipperks, .perksicons, .col-md-2.icon{
@@ -451,9 +484,7 @@ form img{
 		text-align: center;
 	}
 	/****************PROJECT LEADS****************/
-	.instructor1{
-		display: none;
-	}
+	
 	.instructor2{
 		display: block;
 		margin-bottom: 40px; 
@@ -465,6 +496,14 @@ form img{
 
 	.centerbuttons{
 		text-align:center;
+	}
+
+	.makeresponsive {
+		display: inline-block;
+	} 
+
+	.responsivehide {
+		display: none;
 	}
 	/****************HC STUFF****************/
 	#hackcville h1{
