@@ -35,6 +35,7 @@ h2, h3 {
 h3 {
 	font-size: 30px;
 	margin-top: 60px;
+    margin-bottom: 30px;
 }
 
 .container h1{
@@ -148,6 +149,10 @@ h3 {
 .two {
 	text-align: center;
 	padding-top: 30px;
+}
+
+.two h2 {
+    margin: 5% auto;
 }
 
 .software-captions, .skills-captions, .curriculum-captions, .perks-captions, .two h3{
@@ -311,6 +316,7 @@ table, th, td {
 
 .four h2{
 	text-align: center;
+    margin: 5% auto;
 }
 
 .item img{
@@ -552,13 +558,14 @@ form img{
 		margin-bottom: 20px; 
 	}
 	.img-info{
-		height: 100px;
+		height: 200px;
 		width: 100%;
 		background: url("../images/info.jpg") no-repeat center center;
 		-webkit-background-size: 100% auto;
 	    -moz-background-size: 100% auto;
 	    -o-background-size: 100% auto;
 	    background-size:100% auto;
+        margin: 5% auto;
 	}
 	.row-item h3{
 		margin-top: 20px;
@@ -588,6 +595,10 @@ form img{
 	td:first-child{
 		padding-right: 20px;
 	}
+    
+    .container.three.addpadding {
+        padding-bottom: 0px;
+    }
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
 	.five img{
@@ -696,6 +707,9 @@ form img{
 		margin-bottom:170px;
 	}
 	/****************INFO (DETAILED)****************/
+    .thisismytable.col-md-7 {
+        margin: 0px 5%;
+    }
 	/****************PORTFOLIO****************/
 	#myCarousel{
 		width: 90%
@@ -760,6 +774,10 @@ form img{
 	.sc1, .sc2, .sc3, .sc4, .sc5, .sc6, .sc7, .sc8, .sc9, .sc10, .sc11, .sc12, .sc13, .sc14{
 		font-size: 15px;
 	}
+    
+    #information h3 {
+        font-size: 8vw;
+    }
 	/****************INFO (DETAILED)****************/
 
 	.img-info{
