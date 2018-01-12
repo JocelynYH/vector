@@ -15,6 +15,10 @@ body {
     display: block;
 }
 
+#whitespace-sides {
+    margin: 0px 5%;
+}
+
 section{
 	width: 100%;
 }
@@ -87,7 +91,7 @@ h3 {
     -webkit-margin-before: none;
     -webkit-margin-after: none;
     font-weight: 400;
-    margin-top: 30px;
+    margin-top: 127px;
 }
 
 .myButton {
@@ -318,6 +322,10 @@ table, th, td {
 	margin: 0 auto;
 	width: 70%
 }
+
+div#myCarousel#whitespace-sides {
+    margin: 0px 4%;
+}
 /****************TESTIMONIALS****************/
 
 #testimonial{
@@ -336,6 +344,7 @@ table, th, td {
 }
 
 .testimonialtext h2{
+    margin-top: 20px;
 }
 
 /****************PROJECT LEADS****************/
@@ -489,7 +498,7 @@ form img{
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
 	.testimonialtext h4{
-		margin-top: 0px; 
+		margin-top: 20px; 
 		margin-bottom: 40px;
 	}
 
@@ -595,7 +604,7 @@ form img{
 	}
 
 	.testimonialtext h4{
-		margin-top: 10px; 
+		margin-top: 40px; 
 		margin-bottom: 10px;
 	}
 
@@ -689,10 +698,13 @@ form img{
 	/****************INFO (DETAILED)****************/
 	/****************PORTFOLIO****************/
 	#myCarousel{
-		width: 100%
+		width: 90%
 	}
 	/****************TESTIMONIALS****************/
 	/****************PROJECT LEADS****************/
+    .leadtext.col-md-9 {
+        margin: 0px 5%;
+    }
 	/****************HC STUFF****************/
 	/****************CONTACT****************/
 }
@@ -756,6 +768,7 @@ form img{
 
 	.three h2{
 		border-bottom: 2px solid white;
+        line-height:2em;
 	}
 
 	td:first-child{
@@ -763,8 +776,14 @@ form img{
 	}
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
+    .five img {
+        width: 70%;
+    }
 	/****************PROJECT LEADS****************/
-	
+    img#toplead, img#bottomlead {
+        width: 70%;
+    }
+    
 	/****************HC STUFF****************/
 	.seven h1{
 		font-size: 20px;
@@ -798,6 +817,9 @@ form img{
 	/****************INFO (DETAILED)****************/
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
+    .five img#michael {
+        width: 100%;
+    }
 	/****************PROJECT LEADS****************/
 	/****************HC STUFF****************/
 	/****************CONTACT****************/
