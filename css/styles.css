@@ -38,6 +38,14 @@ h3 {
     margin-bottom: 30px;
 }
 
+h4 {
+    font-size: 20px
+}
+
+h4#emphasize {
+    font-weight: bold;
+}
+
 .container h1{
 	text-align: center;
 }
@@ -145,6 +153,9 @@ h3 {
 */
 /****************THE LOWDOWN****************/
 
+h2#emphasize {
+    font-size: 50px;
+}
 
 .two {
 	text-align: center;
