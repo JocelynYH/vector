@@ -271,6 +271,9 @@ path {
 	text-shadow: none;
 }
 
+div.gap {
+    height: 30px;
+}
 
 .three h2{
 	text-align: center;
