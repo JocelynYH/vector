@@ -374,7 +374,7 @@ div#myCarousel#whitespace-sides {
 	text-align:center; 
 }
 
-.instructor1 h1, .ta1 h1{
+.instructor1 h3, .ta1 h3{
 	text-align:left;
 }
 
@@ -663,7 +663,7 @@ form img{
 		padding-left: 15px;
 	}
 
-	.leadtext h1{
+	.leadtext h3{
 		text-align: center;
 	}
 	/****************HC STUFF****************/
