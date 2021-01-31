@@ -5,26 +5,27 @@
 
 body {
 	background: #4B79A1;
-    background: -webkit-radial-gradient(#345673 , #0e1c27);
-    background: radial-gradient( #345673 , #0e1c27);
-    color: white;
-    font-family: 'muli';
-    font-weight: 400;
-    margin: 0px;
- 	padding: 0px;
-    display: block;
+	background: -webkit-radial-gradient(#345673, #0e1c27);
+	background: radial-gradient(#345673, #0e1c27);
+	color: white;
+	font-family: 'muli';
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+	display: block;
 }
 
 #whitespace-sides {
-    margin: 0px 5%;
+	margin: 0px 5%;
 }
 
-section{
+section {
 	width: 100%;
 }
 
 
-h2, h3 {
+h2,
+h3 {
 	margin: 2vh 0px;
 	font-family: 'arvo';
 	font-weight: 700;
@@ -35,18 +36,18 @@ h2, h3 {
 h3 {
 	font-size: 30px;
 	margin-top: 60px;
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 h4 {
-    font-size: 20px
+	font-size: 20px
 }
 
 h4#emphasize {
-    font-weight: bold;
+	font-weight: bold;
 }
 
-.container h1{
+.container h1 {
 	text-align: center;
 }
 
@@ -56,21 +57,22 @@ h4#emphasize {
 }
 
 .invertsvg {
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
 }
+
 /****************NAVBAR****************/
 
-#logo{
+#logo {
 	width: 50px;
 	margin: 10px 0px 10px 0px;
 }
 
-.navbar-nav li{
-	margin-top: 10px; 
+.navbar-nav li {
+	margin-top: 10px;
 }
 
-.navbar{
+.navbar {
 	border-radius: 0px;
 	margin-bottom: 0;
 	background-color: #152E41;
@@ -79,65 +81,68 @@ h4#emphasize {
 }
 
 .activenav {
-    color: #FFF !important;
+	color: #FFF !important;
 }
+
 /****************TITLE****************/
 
-.one{
+.one {
 	height: 100%;
-	width:100%;
+	width: 100%;
 	background-image: url('../images/blueprint-2.jpg');
 	background-repeat: repeat;
 	text-align: center;
 	font-family: 'bluprint';
-	color: white;	
+	color: white;
 	filter: brightness(90%);
 }
 
-#vector {	
+#vector {
 	font-size: 50vmin;
 	margin-bottom: 0px !important;
-    -webkit-margin-before: none;
-    -webkit-margin-after: none;
-    font-weight: 400;
-    margin-top: 127px;
+	-webkit-margin-before: none;
+	-webkit-margin-after: none;
+	font-weight: 400;
+	margin-top: 127px;
 }
 
 .myButton {
-	background-color:white;
+	background-color: white;
 	-moz-border-radius: 30px;
 	-webkit-border-radius: 30px;
 	border-radius: 30px;
 	display: inline-block;
 	cursor: pointer;
-	font-family: 'Muli';
-	font-weight: 800;
-	font-size: 3vmin;
+	font-family: 'muli';
+	font-weight: 1000;
+	font-size: 2.3rem;
+	letter-spacing: .2rem;
 	padding: 7px 25px;
 	transition: .5s;
-	margin-top: 20px; 
-	margin-bottom: 20px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
 	text-decoration: none;
 }
 
 .myButton:hover {
-	margin-top: 10px; 
-	margin-bottom: 30px; 
+	margin-top: 10px;
+	margin-bottom: 30px;
 	transition: margin .5s;
 	text-decoration: none;
 	color: #FCB956;
 	text-decoration: none;
 }
+
 .myButton:active {
-	background-color:#bab1ba;
+	background-color: #bab1ba;
 	text-decoration: none;
 }
 
-.myButton:visited{
+.myButton:visited {
 	text-decoration: none;
 }
 
-.myButton:focus{
+.myButton:focus {
 	text-decoration: none;
 }
 
@@ -154,7 +159,7 @@ h4#emphasize {
 /****************THE LOWDOWN****************/
 
 h2#emphasize {
-    font-size: 50px;
+	font-size: 50px;
 }
 
 .two {
@@ -163,10 +168,14 @@ h2#emphasize {
 }
 
 .two h2 {
-    margin: 5% auto;
+	margin: 5% auto;
 }
 
-.software-captions, .skills-captions, .curriculum-captions, .perks-captions, .two h3{
+.software-captions,
+.skills-captions,
+.curriculum-captions,
+.perks-captions,
+.two h3 {
 	transition: 0.4s;
 }
 
@@ -174,59 +183,78 @@ h2#emphasize {
 	padding: 35px 40px 25px 40px;
 	box-sizing: border-box;
 	fill: #78ABD8;
-  	stroke: #78ABD8;
+	stroke: #78ABD8;
 
 }
 
 path {
-  fill: #78ABD8;
-  stroke: #78ABD8;
+	fill: #78ABD8;
+	stroke: #78ABD8;
 
 }
 
-#topsoft{
-	margin-top: 30px; 
+#topsoft {
+	margin-top: 30px;
 }
 
-.software-icons{
+.software-icons {
 	text-align: center;
 }
 
-.iconset{
+.iconset {
 	width: 15%;
 	display: inline-block;
-	margin-left: 3%; 
-	margin-right: 3%; 
+	margin-left: 3%;
+	margin-right: 3%;
 
 }
 
-.iconset2, .iconset3, .iconset4{
+.iconset2,
+.iconset3,
+.iconset4 {
 	width: 10%;
 	display: inline-block;
-	margin-left: 2%; 
+	margin-left: 2%;
 	margin-right: 2%;
 }
 
-.software-captions, .skills-captions, .curriculum-captions, .perks-captions{
+.software-captions,
+.skills-captions,
+.curriculum-captions,
+.perks-captions {
 	position: relative;
 	display: block;
-	margin-top: 20px; 
-	margin-bottom:20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-.curriculum-captions, .perks-captions{
-	margin-bottom:60px;
+.curriculum-captions,
+.perks-captions {
+	margin-bottom: 60px;
 }
 
-.perks-captions{
-	margin-bottom:90px;
+.perks-captions {
+	margin-bottom: 90px;
 }
 
-.sc1, .sc2, .sc3, .sc4, .sc5, .sc6, .sc7, .sc8, .sc9, .sc10, .sc11, .sc12, .sc13, .sc14{
+.sc1,
+.sc2,
+.sc3,
+.sc4,
+.sc5,
+.sc6,
+.sc7,
+.sc8,
+.sc9,
+.sc10,
+.sc11,
+.sc12,
+.sc13,
+.sc14 {
 	position: absolute;
 	text-align: center;
 	display: none;
-	top:0;
+	top: 0;
 	margin-left: auto;
 	margin-right: auto;
 	left: 0;
@@ -234,8 +262,8 @@ path {
 	font-size: 20px;
 }
 
-.cap{
-	margin-bottom:0px !important;
+.cap {
+	margin-bottom: 0px !important;
 }
 
 /*.pleasework{
@@ -272,28 +300,28 @@ path {
 }
 
 div.gap {
-    height: 30px;
+	height: 30px;
 }
 
-.three h2{
+.three h2 {
 	text-align: center;
 	margin-bottom: 50px;
 }
 
-.img-info{
+.img-info {
 	height: 575px;
 	background: url("../images/info.jpg") no-repeat center center;
 	-webkit-background-size: auto 95%;
-    -moz-background-size: auto 95%;
-    -o-background-size: auto 95%;
-    background-size:auto 95%;
+	-moz-background-size: auto 95%;
+	-o-background-size: auto 95%;
+	background-size: auto 95%;
 }
 
-.row-item h3{
+.row-item h3 {
 	margin-top: 35px;
 }
 
-.row-item p{
+.row-item p {
 	margin-top: 40px;
 	font-size: 20px;
 	text-align: right;
@@ -314,9 +342,12 @@ table {
 	height: auto;
 }
 
-table, th, td {
-/*	border: 1px solid white;
-*/	padding: 25px;
+table,
+th,
+td {
+	/*	border: 1px solid white;
+*/
+	padding: 25px;
 	padding-left: 25px;
 	vertical-align: top;
 }
@@ -328,57 +359,59 @@ table, th, td {
 
 /****************PORTFOLIO****************/
 
-.four h2{
+.four h2 {
 	text-align: center;
-    margin: 5% auto;
+	margin: 5% auto;
 }
 
-.item img{
+.item img {
 	display: inline-block !important;
 }
 
-#myCarousel{
-	text-align:center;
+#myCarousel {
+	text-align: center;
 	margin: 0 auto;
 	width: 70%
 }
 
 div#myCarousel#whitespace-sides {
-    margin: 0px 4%;
+	margin: 0px 4%;
 }
+
 /****************TESTIMONIALS****************/
 
-#testimonial{
+#testimonial {
 	width: 100%;
 	background-color: #000;
-	padding: 20px 0px; 
+	padding: 20px 0px;
 }
 
-.five img{
-	padding-left:0;
+.five img {
+	padding-left: 0;
 }
 
-.testimonialtext h4{
-	margin-top: 50px; 
+.testimonialtext h4 {
+	margin-top: 50px;
 	margin-bottom: 40px;
 }
 
-.testimonialtext h2{
-    margin-top: 20px;
+.testimonialtext h2 {
+	margin-top: 20px;
 }
 
 /****************PROJECT LEADS****************/
-#leads{
-	padding: 20px 0px 40px 0px; 
+#leads {
+	padding: 20px 0px 40px 0px;
 }
 
-.six h2{
+.six h2 {
 	margin-bottom: 50px;
-	text-align:center; 
+	text-align: center;
 }
 
-.instructor1 h3, .ta1 h3{
-	text-align:left;
+.instructor1 h3,
+.ta1 h3 {
+	text-align: left;
 }
 
 img#toplead {
@@ -390,14 +423,17 @@ img#bottomlead {
 	padding-left: 0;
 }
 
-.button{/*
+.button {
+	/*
 	border: 2px solid white;
 	display: inline-block;*/
 	padding: 10px 30px 10px 30px;
-	text-align: center;/*
+	text-align: center;
+	/*
 	text-decoration: none;
 	color: white;*/
 }
+
 /*.button:hover{
 	background-color: white;
 	color: #345673;
@@ -406,47 +442,51 @@ img#bottomlead {
 .headshot {
 	margin-bottom: 0px;
 }
-.instructor2{
+
+.instructor2 {
 	display: none;
 }
 
-.leadtext{
+.leadtext {
 	padding-left: 0;
 	padding-right: 0;
 }
 
-.centerbuttons{
+.centerbuttons {
 	margin-top: 20px;
 }
 
-.ta1 .centerbuttons{
+.ta1 .centerbuttons {
 	text-align: right;
 }
+
 /****************HC STUFF****************/
-#hackcville{
+#hackcville {
 	width: 100%;
 	background-color: #FFF;
 	text-align: center;
-	padding-bottom: 20px; 
+	padding-bottom: 20px;
 }
 
-#hackcville h1{
+#hackcville h1 {
 	color: black;
 	font-size: 50pt;
 	margin-bottom: 20px;
 	transition: .5s;
 }
 
-.holder-1{
+.holder-1 {
 	color: steelblue;
 }
 
 .videoWrapper {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 56.25%;
+	/* 16:9 */
 	padding-top: 25px;
 	height: 0;
 }
+
 .videoWrapper iframe {
 	position: absolute;
 	top: 0;
@@ -456,77 +496,83 @@ img#bottomlead {
 }
 
 /****************CONTACT****************/
-.eight h1{
-	margin-bottom: 0px; 
+.eight h1 {
+	margin-bottom: 0px;
 }
 
-.row{
+.row {
 	padding-top: 40px;
-    margin-right: 0px;
-    margin-left: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
 }
 
-form{
+form {
 	text-align: center;
 }
 
-form img{
+form img {
 	width: 100%;
-	padding-top:50px; 
+	padding-top: 50px;
 	padding-left: 0 !important;
 }
-.form-group{
+
+.form-group {
 	padding-right: 0px;
-	padding-left: 0px; 
+	padding-left: 0px;
 	padding-bottom: 0 !important;
 	min-height: 1px !important;
 }
-.subscribe{
+
+.subscribe {
 	/*display: inline-block;
 	float: none;
 	margin: 0;*/
 	font-size: 20px;
-    margin-left: 0px !important;
-    margin-top: 0px !important;
-    width: 100% !important;
+	margin-left: 0px !important;
+	margin-top: 0px !important;
+	width: 100% !important;
 
 }
 
-#mc_embed_signup input{
-	border:0;
+#mc_embed_signup input {
+	border: 0;
 }
 
-.response{
+.response {
 	margin-top: 0 !important;
 	padding-top: 0 !important;
-	width: 100% !important; 
+	width: 100% !important;
 }
 
 /*************************************/
 /************* 1200 PX ***************/
 /*************************************/
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1200px) {
+
 	/****************NAVBAR****************/
 	/****************TITLE****************/
 	/****************INFO****************/
 	/****************INFO (DETAILED)****************/
-	table, td, th {
+	table,
+	td,
+	th {
 		font-size: 20px !important;
 		vertical-align: top;
 	}
+
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
-	.testimonialtext h4{
-		margin-top: 20px; 
+	.testimonialtext h4 {
+		margin-top: 20px;
 		margin-bottom: 40px;
 	}
 
 	/****************PROJECT LEADS****************/
 	/****************HC STUFF****************/
 	/****************CONTACT****************/
-	.eight h1{
-		font-size: 25px; 
+	.eight h1 {
+		font-size: 25px;
 	}
 }
 
@@ -535,22 +581,23 @@ form img{
 /*************************************/
 
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1000px) {
 
 	.container {
 		padding: 50px 15px;
 	}
 
 	/****************NAVBAR****************/
-	.navbar{
+	.navbar {
 		padding-right: 0px;
 		padding-left: 20px;
 	}
+
 	/****************TITLE****************/
 
 	/****************INFO****************/
 
-/*	.software-icons{
+	/*	.software-icons{
 		width: 100%;
 	}
 
@@ -559,34 +606,36 @@ form img{
 		display: inline-block;
 	
 	}*/
-	.curriculum-captions{
-		margin-bottom:150px;
+	.curriculum-captions {
+		margin-bottom: 150px;
 	}
 
-	.perks-captions{
-		margin-bottom:120px;
+	.perks-captions {
+		margin-bottom: 120px;
 	}
 
 	/****************INFO (DETAILED)****************/
-	.three h2{
-		margin-bottom: 20px; 
+	.three h2 {
+		margin-bottom: 20px;
 	}
-	.img-info{
+
+	.img-info {
 		height: 200px;
 		width: 100%;
 		background: url("../images/info.jpg") no-repeat center center;
 		-webkit-background-size: 100% auto;
-	    -moz-background-size: 100% auto;
-	    -o-background-size: 100% auto;
-	    background-size:100% auto;
-        margin: 5% auto;
+		-moz-background-size: 100% auto;
+		-o-background-size: 100% auto;
+		background-size: 100% auto;
+		margin: 5% auto;
 	}
-	.row-item h3{
+
+	.row-item h3 {
 		margin-top: 20px;
 		font-size: 25px;
 	}
 
-	.row-item p{
+	.row-item p {
 		margin-top: 5px;
 		font-size: 15px;
 	}
@@ -595,68 +644,77 @@ form img{
 		height: 50px;
 	}
 
-	table{
+	table {
 		margin-left: 0px;
 	}
-	.thisismytable{
+
+	.thisismytable {
 		padding: 0;
 	}
 
-	td{
+	td {
 		padding: 0;
 		padding-bottom: 20px;
 	}
-	td:first-child{
+
+	td:first-child {
 		padding-right: 20px;
 	}
-    
-    .container.three.addpadding {
-        padding-bottom: 0px;
-    }
+
+	.container.three.addpadding {
+		padding-bottom: 0px;
+	}
+
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
-	.five img{
+	.five img {
 		width: 50%;
 		display: inline-block;
 	}
-	.testimonialtext h2, .testimonialtext p, .five{
+
+	.testimonialtext h2,
+	.testimonialtext p,
+	.five {
 		text-align: center;
 	}
 
 
-	.five img{
-		padding-left:15px;
+	.five img {
+		padding-left: 15px;
 	}
 
-	.testimonialtext h4{
-		margin-top: 40px; 
+	.testimonialtext h4 {
+		margin-top: 40px;
 		margin-bottom: 10px;
 	}
 
-	.testimonialtext h2{
-		font-size:30px;
+	.testimonialtext h2 {
+		font-size: 30px;
 	}
 
 	/****************PROJECT LEADS****************/
-	.instructor1{
+	.instructor1 {
 		display: none;
 	}
-	.instructor2{
+
+	.instructor2 {
 		display: block;
-		margin-bottom: 70px; 
+		margin-bottom: 70px;
 	}
-	.six img{
+
+	.six img {
 		width: 50%;
-		margin:0 auto;
+		margin: 0 auto;
 	}
 
-	.centerbuttons{
-		text-align:center;
-	}
-
-	.ta1 .centerbuttons{
+	.centerbuttons {
 		text-align: center;
 	}
+
+	.ta1 .centerbuttons {
+		text-align: center;
+	}
+
 	img#toplead {
 		margin-bottom: 0;
 		padding-right: 15px;
@@ -666,20 +724,23 @@ form img{
 		padding-left: 15px;
 	}
 
-	.leadtext h3{
+	.leadtext h3 {
 		text-align: center;
 	}
+
 	/****************HC STUFF****************/
-	#hackcville h1{
+	#hackcville h1 {
 		font-size: 30pt;
 	}
-	iframe{
+
+	iframe {
 		width: 100%;
 	}
+
 	/****************CONTACT****************/
-	form img{
+	form img {
 		width: 50%;
-		padding-top:0px;
+		padding-top: 0px;
 	}
 
 	#mc_embed_signup form {
@@ -687,18 +748,18 @@ form img{
 	}
 
 	.row {
-	    margin-right: 0px;
-	    margin-left: 0px;
+		margin-right: 0px;
+		margin-left: 0px;
 	}
 
-	.form-group{
+	.form-group {
 		padding-right: 15px;
 		padding-left: 15px;
 	}
 
-	.clear{
-		padding-left: 15px !important; 
-		padding-right: 30px; 
+	.clear {
+		padding-left: 15px !important;
+		padding-right: 30px;
 	}
 }
 
@@ -707,32 +768,39 @@ form img{
 /*************************************/
 
 
-@media screen and (max-width:868px){
+@media screen and (max-width:868px) {
+
 	/****************NAVBAR****************/
-	.nav a{
+	.nav a {
 		font-size: 12px;
 	}
+
 	/****************TITLE****************/
 	/****************INFO****************/
-	.skills-captions{
-		margin-bottom:90px;
+	.skills-captions {
+		margin-bottom: 90px;
 	}
-	.curriculum-captions{
-		margin-bottom:170px;
+
+	.curriculum-captions {
+		margin-bottom: 170px;
 	}
+
 	/****************INFO (DETAILED)****************/
-    .thisismytable.col-md-7 {
-        margin: 0px 5%;
-    }
+	.thisismytable.col-md-7 {
+		margin: 0px 5%;
+	}
+
 	/****************PORTFOLIO****************/
-	#myCarousel{
+	#myCarousel {
 		width: 90%
 	}
+
 	/****************TESTIMONIALS****************/
 	/****************PROJECT LEADS****************/
-    .leadtext.col-md-9 {
-        margin: 0px 5%;
-    }
+	.leadtext.col-md-9 {
+		margin: 0px 5%;
+	}
+
 	/****************HC STUFF****************/
 	/****************CONTACT****************/
 }
@@ -742,13 +810,15 @@ form img{
 /*************************************/
 
 
-@media screen and (max-width:635px){
+@media screen and (max-width:635px) {
+
 	/****************NAVBAR****************/
 	/****************TITLE****************/
 	/****************INFO****************/
-	.software-captions{
-		margin-bottom:80px;
+	.software-captions {
+		margin-bottom: 80px;
 	}
+
 	/****************INFO (DETAILED)****************/
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
@@ -763,77 +833,100 @@ form img{
 /*************************************/
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
+
 	/****************NAVBAR****************/
-	.nav a{
+	.nav a {
 		font-size: 14px;
 	}
+
 	/****************TITLE****************/
 	/****************INFO****************/
-	.iconset, .iconset3{
+	.iconset,
+	.iconset3 {
 		width: 20%;
 		display: inline-block;
-		margin-left: 5%; 
-		margin-right: 5%; 
+		margin-left: 5%;
+		margin-right: 5%;
 
 	}
 
-	.iconset2, .iconset4{
+	.iconset2,
+	.iconset4 {
 		width: 15%;
 		display: inline-block;
-		margin-left: 5%; 
+		margin-left: 5%;
 		margin-right: 5%;
 	}
 
-	.sc1, .sc2, .sc3, .sc4, .sc5, .sc6, .sc7, .sc8, .sc9, .sc10, .sc11, .sc12, .sc13, .sc14{
+	.sc1,
+	.sc2,
+	.sc3,
+	.sc4,
+	.sc5,
+	.sc6,
+	.sc7,
+	.sc8,
+	.sc9,
+	.sc10,
+	.sc11,
+	.sc12,
+	.sc13,
+	.sc14 {
 		font-size: 15px;
 	}
-    
-    #information h3 {
-        font-size: 8vw;
-    }
+
+	#information h3 {
+		font-size: 8vw;
+	}
+
 	/****************INFO (DETAILED)****************/
 
-	.img-info{
+	.img-info {
 		display: none;
 	}
 
-	.three h2{
+	.three h2 {
 		border-bottom: 2px solid white;
-        line-height:2em;
+		line-height: 2em;
 	}
 
-	td:first-child{
+	td:first-child {
 		padding-right: 60px;
 	}
+
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
-    .five img {
-        width: 70%;
-    }
+	.five img {
+		width: 70%;
+	}
+
 	/****************PROJECT LEADS****************/
-    img#toplead, img#bottomlead {
-        width: 70%;
-    }
-    
+	img#toplead,
+	img#bottomlead {
+		width: 70%;
+	}
+
 	/****************HC STUFF****************/
-	.seven h1{
+	.seven h1 {
 		font-size: 20px;
 	}
+
 	/****************CONTACT****************/
 
-	.eight h1{
-		font-size: 25px; 
+	.eight h1 {
+		font-size: 25px;
 	}
 
 }
 
 
 
-@media screen and (max-width:402px){
+@media screen and (max-width:402px) {
+
 	/****************NAVBAR****************/
 	/****************TITLE****************/
-/*	.one {
+	/*	.one {
 		height: 300px !important;
 	}
 */
@@ -844,19 +937,17 @@ form img{
 
 	/****************INFO****************/
 	.perks-captions {
-	    margin-bottom: 150px;
+		margin-bottom: 150px;
 	}
+
 	/****************INFO (DETAILED)****************/
 	/****************PORTFOLIO****************/
 	/****************TESTIMONIALS****************/
-    .five img#michael {
-        width: 100%;
-    }
+	.five img#michael {
+		width: 100%;
+	}
+
 	/****************PROJECT LEADS****************/
 	/****************HC STUFF****************/
 	/****************CONTACT****************/
 }
-
-
-
-
