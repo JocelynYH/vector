@@ -86,7 +86,7 @@ h4#emphasize {
 
 /****************TITLE****************/
 
-.one {
+.container.one {
 	height: 100%;
 	width: 100%;
 	background-image: url('../images/blueprint-2.jpg');
@@ -409,9 +409,13 @@ div#myCarousel#whitespace-sides {
 	text-align: center;
 }
 
-.instructor1 h3,
-.ta1 h3 {
+.instructor.one {
 	text-align: left;
+}
+
+.instructor.one h3,
+.ta1 h3 {
+	font-family: 'muli';
 }
 
 img#toplead {
@@ -432,10 +436,6 @@ img#bottomlead {
 	margin-bottom: 0px;
 }
 
-.instructor2 {
-	display: none;
-}
-
 .leadtext {
 	padding-left: 0;
 	padding-right: 0;
@@ -445,8 +445,13 @@ img#bottomlead {
 	margin-top: 20px;
 }
 
-.ta1 .centerbuttons {
-	text-align: right;
+.leadtext.col-xs-offset-1.col-md-8 {
+	width: 72.666667%;
+	margin-left: 2.333333%;
+}
+
+.ta1 .leadtext .centerbuttons {
+	/* text-align: right; */
 }
 
 /****************HC STUFF****************/
@@ -686,11 +691,7 @@ form img {
 	}
 
 	/****************PROJECT LEADS****************/
-	.instructor1 {
-		display: none;
-	}
-
-	.instructor2 {
+	.instructor.one {
 		display: block;
 		margin-bottom: 70px;
 	}
